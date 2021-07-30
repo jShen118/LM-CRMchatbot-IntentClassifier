@@ -1,0 +1,377 @@
+[
+    {
+        "text": "legal files is frozen",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
+        "text": "setting up email on work cell phone",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "Good morning ",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "forgot a account password",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "jackbox games",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "Access to a BL report",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "don't know which version of apps to download",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "ms teams is not working. not able to take calls on teams.",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "How do I set up dual monitors?",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "i'm having issues resetting my A account password",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "Computer is locked and cannot log into it",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "I have a VM that I'm trying to open and the VM won't open.",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
+        "text": "escalate prior ticket",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "Laptop is coming apart at the seams.",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "Outlook Folder",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "nice engage  is freezing screen scrapes. confirmed this is not just me",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
+        "text": "i need an account in midway reset back to the all lines proposal task.",
+        "intent": "Intent.GRSIssues",
+        "entities": []
+    },
+    {
+        "text": "having issues with avaya",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "downloading new update",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "unable to test my token and successfully authenticate",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "My Outlook will not open",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "Looking for the directions of how to get set up on my iphone?",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "adding an additional mailbox to my outlook profile",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "Locked out of iphone",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "Cannot hear in teams meeting, everything shows correct device selected.",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "can't log into phone",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "Request for Logitech G Hub for keyboard function",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "Unable to access claims in CVO after updating password",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "Been out for 3 months. Unable to log on to avaya",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "Unable to get to website for Legal Files",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "How to view past IT tickets.",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "cannot send emails from LMDocuments@libertymutual.com",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "New phone cannot log into Pingid",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "Printer not working",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "I need to order company phone, was looking for steps to place the order",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "Avaya set up",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "taking state test on secure browser",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "need access to this shared mailbox on my Outlook",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "my webpages weren't loading. how do I clear cookies?",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "im trying to figure out how to get into navigator",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "CF not working",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "CSW keeps logging me out every few minutes.",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "my cell phone does not work with any liberty apps",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "iUnderwrite SLEO and LAW rating tools are not saving or rating",
+        "intent": "Intent.RatingIssues",
+        "entities": []
+    },
+    {
+        "text": "getting undeliverable message while sending mail from OrlandophysDammailbox",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "Cannot start VDI",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
+        "text": "rating system",
+        "intent": "Intent.RatingIssues",
+        "entities": []
+    },
+    {
+        "text": "cannot get pass Pulse & RSA",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "avaya issues",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "Good Afternoon",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "Need to approve RIT as I am covering for someone that is on leave",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "navigator showing rental error",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "Office 365,slow, Contacting Server Prompt on every e-mail, frustrating.",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
+        "text": "Unable to open docs in LF",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
+        "text": "vpn",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "I am having issue in VIA Navigator",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "I am unable to open documents in Watson.",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "on CSW, on cust search , i put a polic #or email & not getting any results",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "Password",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "Good morning team... My RSA token ID isn't working... ",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "vpn keeps disconnecting at random times",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "Not able to login genius",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "My outlook opens, but does not show new emails.  There is a red x",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "outlook Rule not working in shared mailbox",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "in iUW message says to contact the help desk.",
+        "intent": "Intent.GRSIssues",
+        "entities": []
+    },
+    {
+        "text": "Avaya not working after automatic pushed update",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "genius password reset",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "trouble updating IOS on my iphone",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "Outlook and Teams is disabled on mobileiron",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "My monitor flashes blank intermittently.",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
+        "text": "Call history on CSW shows virtually all numbers as unknown for name",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "why can i not make an external phone call",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "I am not able to access KCC",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "Can't see the EFT info on CBS",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "AVAYA not connecting with Jabra headphone",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    }
+]

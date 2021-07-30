@@ -1,0 +1,377 @@
+[
+    {
+        "text": "jailbroken ios",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "Can' Access rating",
+        "intent": "Intent.RatingIssues",
+        "entities": []
+    },
+    {
+        "text": "phone call issues with MS Teams",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "Teams add in missing from outlook",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "I need the full access to Adobe",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "rating concerns",
+        "intent": "Intent.RatingIssues",
+        "entities": []
+    },
+    {
+        "text": "Video is not working on Zoom.",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "can you help me connect my computer to liberty mutual network",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "CBS problem",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "I am looking for a way to reset my Zscaler authentication expiration.",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "OUtlook not loading Today's emails",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "LibertyMutualLasColinas@libertymutual.com",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "iUW - unable to generate documents",
+        "intent": "Intent.GRSIssues",
+        "entities": []
+    },
+    {
+        "text": "I need assistance",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "My computer's wifi is not working, but ethernet does.",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "unable to send emails / update outlook",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "Access Denied on regular employee facing myLiberty pages.",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "having avaya issues as far as connectivity goes with it being intermittent ",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "Can I get help setting up my monitors? ",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "pm navigator archived claim",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "I can't launch to bolt platform from CSW for auto",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
+        "text": "Add an employee to shared calendar in Outlook",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "Need permission with CCure and installing Microsoft teams",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "I need help generating TRIA forms on an account proposed Iunderwrite",
+        "intent": "Intent.GRSIssues",
+        "entities": []
+    },
+    {
+        "text": "Need to access or unable to Invoice.Processing.Portal mailbox folder",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "ez docs in navigator not working correctly",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "Why was my shipment cancelled",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "SAS is frozen",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
+        "text": "how do i set up docking station",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "myLiberty home page not connecting after zscaler implementation",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "I need to stop a computer installation now",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
+        "text": "Rules and alerts in my Outlook is not working",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "CSW is making me long in with every new call and not letting me in to custo",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "can't accept meetings, reply to emails",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "I cannot link my outlook to our sharepoint calendar",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": ".  i am able to connect to avaya and istar, but am not receiving calls",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "Receiving an error as address_city is required.unable to rerate the policy",
+        "intent": "Intent.RatingIssues",
+        "entities": []
+    },
+    {
+        "text": "Need to open a ticket for POWER BI .. Information not loading",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "i am having trouble accessing a link sent to me in an email.",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "unable to view D & B report in Midway",
+        "intent": "Intent.GRSIssues",
+        "entities": []
+    },
+    {
+        "text": "Risk Control Workstation is not working.",
+        "intent": "Intent.GRSIssues",
+        "entities": []
+    },
+    {
+        "text": "i am not able to access certain systems.",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "My csw is not allowing me to transfer leads to my bolt system",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "Need to remove old Phone from PING on my A Account",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "I am not seeing any unread Outlook emails.",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "CSW launch fail. LM PMApplauncher is not running and will not let me sign i",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": " token and completed several test and I'm not getting it on my phone",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "CSW won't open from Salesforce",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "iUnderwrite unable to generate documents for signature",
+        "intent": "Intent.GRSIssues",
+        "entities": []
+    },
+    {
+        "text": "CSW not staying logged in during calls",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "i can't create a house hold in csw",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "Help setting up VPN/ myToken",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "I am having trouble with signing into Trition",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "Account is locked, unable to gain internet access",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "Microsoft Outlook is giving an error 'Not Implemented.'",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "USB Ethernet adapter stopped working",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "! i'm having trouble signing into pulse secure",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "Trying to connect second monitor",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "i have an issue trying to logging into my vde",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "unlock Iphone",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "am facing issues while turning off the zscalar",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "CSW is not working",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "Got validation error while rating the premium in change policy screen",
+        "intent": "Intent.RatingIssues",
+        "entities": []
+    },
+    {
+        "text": "cannot access Myliberty website",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "Replacement laptop will not let me sign in",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "I cannot access SAles Force",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "delete uh",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "I would like to have access to Microsoft Teams on my phone app",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "Digital signature required",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "Issues w/ Avaya",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "odd icon showing up on task bar after running updates and restarting",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "I cannot sign on to Pulse, It says account locked out.",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "i am unable to log into istar",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "i need help getting a new rsa token",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "Legal Files access issues",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    }
+]

@@ -1,0 +1,377 @@
+[
+    {
+        "text": "Need to reload my PingID token on my cell phone after wiping it.",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "Unable to generate esignature documents",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "Unable to proceed with the required link in CMT",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "Need access to documents from a claim in retired workbench software",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "iphone locked",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "cannot access internal sites but external work fine",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "Update Midway hierarchy ",
+        "intent": "Intent.GRSIssues",
+        "entities": []
+    },
+    {
+        "text": "iuw error",
+        "intent": "Intent.GRSIssues",
+        "entities": []
+    },
+    {
+        "text": "Cannot connect to Pulse",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "need assist in reprogramming apps/email on iPhone",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "composite auto quote not pulling over into iuw",
+        "intent": "Intent.GRSIssues",
+        "entities": []
+    },
+    {
+        "text": "when i try to access the system it gives me an error message",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "iris will not open in any browser",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
+        "text": "Files via EDM will not open.",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
+        "text": "What's the IT phone number?",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "Submit online request",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "CSW error",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "I need help clearing a ERAC ticket out of Navigator",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "For auto policies the ownership type is greyed out",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "None",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "I cannot get to the Rating Manager Crime Premium tab in iUnderwrite.",
+        "intent": "Intent.RatingIssues",
+        "entities": []
+    },
+    {
+        "text": "NMWB Access Request",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "I have a new issue",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "iphone password reset",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "Knowledge Center",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "unable to access a link",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "i am having issues signing into avaya",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "issues with crime rating",
+        "intent": "Intent.RatingIssues",
+        "entities": []
+    },
+    {
+        "text": "Company iphone Mobile Iron says not compliant",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "I am having trouble accessing quotes in CSW",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "Direct faxes not coming into my Microsoft Outlook",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "rating concerns",
+        "intent": "Intent.RatingIssues",
+        "entities": []
+    },
+    {
+        "text": "Triton is not working",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "people calling in can't hear me",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "My computer is very slow and seems to have issues",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
+        "text": "Compass rating error",
+        "intent": "Intent.RatingIssues",
+        "entities": []
+    },
+    {
+        "text": "When I click on Salesforce CSW link I get the following",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "MobileIron Activation",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "i think my webcam is not working for me",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "want to change my e-mail and display name from daniel to dan",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "increase outlook mailbox size",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "email access",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "Can not back up phone to icloud",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "I cannot log into AVAYA Agent",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "I couldnt able to disable zscalar by giving my n number password,",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "Can zscaler work if my computer is accessing the internet via a hotspot?",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "errors with avaya causing calls to drop and istar to crash. ",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "My outlook won't let me click on microsoft teams meetings",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "on myLiberty I don't have any data on the about me page",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "COMPASS_Split composite rate",
+        "intent": "Intent.GRSIssues",
+        "entities": []
+    },
+    {
+        "text": "My Outlook messages will not send.  I clicked on updates earlier today.",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "I have to set up few shared email boxes",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "new computer setup problems",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "Help with accessing navigator online.",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "Getting CF error while updating mrtg info",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "avaya not logging in again",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "Account lock put for Pulse Secure",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "legal files is freezing up with pdfs",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
+        "text": "need navigator on my computer",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "I am getting a 400 error when trying to rate",
+        "intent": "Intent.RatingIssues",
+        "entities": []
+    },
+    {
+        "text": "outlook on company phone",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "I am trying to configure my BYOMD",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
+        "text": "I  need help with my outlook inbox screen view",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": " voicemail password reset Also need to register account with N2uituve",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "Outlook calendar",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "How to store emails with attachments on MS Teams",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "I am trying to log into my Salesforce  Im getting a single sign on error?",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "Unable to log in Avaya.",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "I am outside of the US (in Kenya) and I am having trouble accesing Citrix",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "I need assistance with getting the avaya agent  on my start menu",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "My 1st monitor displaying everything really big",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "Can you get me a list of the LDAPs for some of my reps?",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "suspicious emial",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "No Avaya access, I just returned from maternity leave",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "Outlook: Distribution Lists",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    }
+]
