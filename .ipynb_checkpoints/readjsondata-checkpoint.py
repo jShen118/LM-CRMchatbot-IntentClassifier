@@ -1,6 +1,6 @@
 '''
 This is a python script to read data from training.json to split utterances by their intents into separate lists.
-There should be 440 total utterances that span over 11 intents (including None):
+There should be 411 total utterances that span over 11 intents (including None):
     Intent.AccessIssues
     Intent.CallQualityIssues
     Intent.FrozenLoadingIssue

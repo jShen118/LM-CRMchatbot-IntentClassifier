@@ -17,7 +17,7 @@ callqualityUtterances = data.CallQualityUtterances
 frozenloadingUtterances = data.FrozenLoadingUtterances
 grmUtterances = data.GRMUtterances
 grsUtterances = data.GRSUtterances
-mobilemanagamentUtterances = data.MobileManagementUtterances
+mobilemanagementUtterances = data.MobileManagementUtterances
 networkUtterances = data.NetworkUtterances
 outlookUtterances = data.OutlookUtterances
 ratingUtterances = data.RatingUtterances
@@ -40,28 +40,28 @@ def bagOfWords(utterances):
     return [word.lower() for u in utterances for word in u.split()]
 
 accessWords = bagOfWords(accessUtterances)
-callqualityWords = bagOfWords(accessUtterances)
-frozenloadingWords = bagOfWords(accessUtterances)
-grmWords = bagOfWords(accessUtterances)
-grsWords = bagOfWords(accessUtterances)
-mobilemanagementWords = bagOfWords(accessUtterances)
-networkWords = bagOfWords(accessUtterances)
-outlookWords = bagOfWords(accessUtterances)
-ratingWords = bagOfWords(accessUtterances)
-hardwareWords = bagOfWords(accessUtterances)
-noneWords = bagOfWords(accessUtterances)
+callqualityWords = bagOfWords(callqualityUtterances)
+frozenloadingWords = bagOfWords(frozenloadingUtterances)
+grmWords = bagOfWords(grmUtterances)
+grsWords = bagOfWords(grsUtterances)
+mobilemanagementWords = bagOfWords(mobilemanagementUtterances)
+networkWords = bagOfWords(networkUtterances)
+outlookWords = bagOfWords(outlookUtterances)
+ratingWords = bagOfWords(ratingUtterances)
+hardwareWords = bagOfWords(hardwareUtterances)
+noneWords = bagOfWords(noneUtterances)
 
 accessUtterances = removeStopwordsList(accessUtterances)
-callqualityUtterances = removeStopwordsList(accessUtterances)
-frozenloadingUtterances = removeStopwordsList(accessUtterances)
-grmUtterances = removeStopwordsList(accessUtterances)
-grsUtterances = removeStopwordsList(accessUtterances)
-mobilemanagementUtterances = removeStopwordsList(accessUtterances)
-networkUtterances = removeStopwordsList(accessUtterances)
-outlookUtterances = removeStopwordsList(accessUtterances)
-ratingUtterances = removeStopwordsList(accessUtterances)
-hardwareUtterances = removeStopwordsList(accessUtterances)
-noneUtterances = removeStopwordsList(accessUtterances)
+callqualityUtterances = removeStopwordsList(callqualityUtterances)
+frozenloadingUtterances = removeStopwordsList(frozenloadingUtterances)
+grmUtterances = removeStopwordsList(grmUtterances)
+grsUtterances = removeStopwordsList(grsUtterances)
+mobilemanagementUtterances = removeStopwordsList(mobilemanagementUtterances)
+networkUtterances = removeStopwordsList(networkUtterances)
+outlookUtterances = removeStopwordsList(outlookUtterances)
+ratingUtterances = removeStopwordsList(ratingUtterances)
+hardwareUtterances = removeStopwordsList(hardwareUtterances)
+noneUtterances = removeStopwordsList(noneUtterances)
 
 vectorizer = CountVectorizer(ngram_range=(1, 2), token_pattern=r'\b\w+\b', min_df=1)
 train_vectors = vectorizer.fit_transform(
@@ -103,13 +103,13 @@ def SVMclassify(utterance, kernel):
     utterance = removeStopwords(utterance)
     utterance_vector = vectorizer.transform([utterance]) # vectorizing
     if kernel == 'linear':
-        return (classifier_linear.predict(utterance_vector)[0], max(classifier_rbf.predict_proba(utterance_vector)[0]))
+        return (classifier_linear.predict(utterance_vector)[0], max(classifier_linear.predict_proba(utterance_vector)[0]))
     elif kernel == 'poly':
-        return (classifier_poly.predict(utterance_vector)[0], max(classifier_rbf.predict_proba(utterance_vector)[0]))
+        return (classifier_poly.predict(utterance_vector)[0], max(classifier_poly.predict_proba(utterance_vector)[0]))
     elif kernel == 'rbf':
         return (classifier_rbf.predict(utterance_vector)[0], max(classifier_rbf.predict_proba(utterance_vector)[0]))
     elif kernel == 'sigmoid':
-        return (classifier_sigmoid.predict(utterance_vector)[0], max(classifier_rbf.predict_proba(utterance_vector)[0]))
+        return (classifier_sigmoid.predict(utterance_vector)[0], max(classifier_sigmoid.predict_proba(utterance_vector)[0]))
     return None
 
 def SVMclassifyUtterances(utterances, kernel):
