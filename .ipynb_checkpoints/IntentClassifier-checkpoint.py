@@ -3,92 +3,74 @@
 '''
 
 from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
 from string import punctuation
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.svm import SVC
-import training as data
+import rwjson
 
-
-
-#TRAINING DATA PREPARATION
-accessUtterances = data.AccessUtterances
-callqualityUtterances = data.CallQualityUtterances
-frozenloadingUtterances = data.FrozenLoadingUtterances
-grmUtterances = data.GRMUtterances
-grsUtterances = data.GRSUtterances
-mobilemanagementUtterances = data.MobileManagementUtterances
-networkUtterances = data.NetworkUtterances
-outlookUtterances = data.OutlookUtterances
-ratingUtterances = data.RatingUtterances
-hardwareUtterances = data.HardwareUtterances
-noneUtterances = data.NoneUtterances
-
-sw = set(stopwords.words('english') + list(punctuation))
-sw.union(['trouble', 'having'])
-
+#utterance normalization functions
+def removePunctuation(utterance):
+    return utterance.translate(str.maketrans('', '', punctuation))
 def removeStopwords(utterance):
-    #removes stopwords from utterances
+    sw = set(stopwords.words('english')) #sw.union(['trouble', 'having'])
     return ' '.join([word for word in utterance.split() if word.lower() not in sw])
-def removeStopwordsList(utterances):
-    return [u for u in list(map(removeStopwords, utterances)) if u]
+def stem(utterance):
+    stemmer = PorterStemmer()
+    return ' '.join([stemmer.stem(word) for word in utterance.split()])
 
-#param: list<utterance>
-#return: list<words>
-def bagOfWords(utterances):
-    utterances = list(filter(lambda s: s , list(map(removeStopwords, utterances))))
-    return [word.lower() for u in utterances for word in u.split()]
+#stem made all three batch tests much less accurate (>20% or so depending)
+#removeStopwords and removePunctuation make 75-1 and 75-2 a few pts more accurate, but 75-3 very slightly less accurate
+#so for now normalize will be removeStopwords and removePunctuation, no stemming
+def normalize(utterance):
+    return removeStopwords(removePunctuation(utterance)).lower()
+def normalizeUtterances(utterances):
+    return list(map(normalize, utterances))
 
-accessWords = bagOfWords(accessUtterances)
-callqualityWords = bagOfWords(callqualityUtterances)
-frozenloadingWords = bagOfWords(frozenloadingUtterances)
-grmWords = bagOfWords(grmUtterances)
-grsWords = bagOfWords(grsUtterances)
-mobilemanagementWords = bagOfWords(mobilemanagementUtterances)
-networkWords = bagOfWords(networkUtterances)
-outlookWords = bagOfWords(outlookUtterances)
-ratingWords = bagOfWords(ratingUtterances)
-hardwareWords = bagOfWords(hardwareUtterances)
-noneWords = bagOfWords(noneUtterances)
 
-accessUtterances = removeStopwordsList(accessUtterances)
-callqualityUtterances = removeStopwordsList(callqualityUtterances)
-frozenloadingUtterances = removeStopwordsList(frozenloadingUtterances)
-grmUtterances = removeStopwordsList(grmUtterances)
-grsUtterances = removeStopwordsList(grsUtterances)
-mobilemanagementUtterances = removeStopwordsList(mobilemanagementUtterances)
-networkUtterances = removeStopwordsList(networkUtterances)
-outlookUtterances = removeStopwordsList(outlookUtterances)
-ratingUtterances = removeStopwordsList(ratingUtterances)
-hardwareUtterances = removeStopwordsList(hardwareUtterances)
-noneUtterances = removeStopwordsList(noneUtterances)
+data = rwjson.readjson()
 
+accessNormalized = normalizeUtterances(data.access)
+callqualityNormalized = normalizeUtterances(data.callquality)
+frozenloadingNormalized = normalizeUtterances(data.frozenloading)
+grmNormalized = normalizeUtterances(data.grm)
+grsNormalized = normalizeUtterances(data.grs)
+mobilemanagementNormalized = normalizeUtterances(data.mobilemanagement)
+networkNormalized = normalizeUtterances(data.network)
+outlookNormalized = normalizeUtterances(data.outlook)
+ratingNormalized = normalizeUtterances(data.rating)
+hardwareNormalized = normalizeUtterances(data.hardware)
+noneNormalized = normalizeUtterances(data.none)
+
+
+#Training Support Vector Machines
 vectorizer = TfidfVectorizer(min_df = 5, max_df = 0.8, sublinear_tf = True, use_idf = True, ngram_range=(1, 2))
 #vectorizer = CountVectorizer(ngram_range=(1, 2), token_pattern=r'\b\w+\b', min_df=1)
 train_vectors = vectorizer.fit_transform(
-    accessUtterances + 
-    callqualityUtterances + 
-    frozenloadingUtterances + 
-    grmUtterances + 
-    grsUtterances + 
-    mobilemanagementUtterances + 
-    networkUtterances + 
-    outlookUtterances + 
-    ratingUtterances + 
-    hardwareUtterances + 
-    noneUtterances
+    accessNormalized + 
+    callqualityNormalized + 
+    frozenloadingNormalized + 
+    grmNormalized + 
+    grsNormalized + 
+    mobilemanagementNormalized + 
+    networkNormalized + 
+    outlookNormalized + 
+    ratingNormalized + 
+    hardwareNormalized + 
+    noneNormalized
 )
-labelsList = ['Intent.AccessIssues'] * len(accessUtterances)
-labelsList += ['Intent.CallQualityIssues'] * len(callqualityUtterances)
-labelsList += ['Intent.FrozenLoadingIssue'] * len(frozenloadingUtterances)
-labelsList += ['Intent.GRMIssues'] * len(grmUtterances)
-labelsList += ['Intent.GRSIssues'] * len(grsUtterances)
-labelsList += ['Intent.MobileManagement'] * len(mobilemanagementUtterances)
-labelsList += ['Intent.NetworkIssues'] * len(networkUtterances)
-labelsList += ['Intent.OutlookIssues'] * len(outlookUtterances)
-labelsList += ['Intent.RatingIssues'] * len(ratingUtterances)
-labelsList += ['Intent.HardWareIssues'] * len(hardwareUtterances)
-labelsList += ['None'] * len(noneUtterances)
+labelsList = ['Intent.AccessIssues'] * len(accessNormalized)
+labelsList += ['Intent.CallQualityIssues'] * len(callqualityNormalized)
+labelsList += ['Intent.FrozenLoadingIssue'] * len(frozenloadingNormalized)
+labelsList += ['Intent.GRMIssues'] * len(grmNormalized)
+labelsList += ['Intent.GRSIssues'] * len(grsNormalized)
+labelsList += ['Intent.MobileManagement'] * len(mobilemanagementNormalized)
+labelsList += ['Intent.NetworkIssues'] * len(networkNormalized)
+labelsList += ['Intent.OutlookIssues'] * len(outlookNormalized)
+labelsList += ['Intent.RatingIssues'] * len(ratingNormalized)
+labelsList += ['Intent.HardWareIssues'] * len(hardwareNormalized)
+labelsList += ['None'] * len(noneNormalized)
 
 classifier_linear = SVC(kernel='linear', probability = True)
 classifier_linear.fit(train_vectors, labelsList)
