@@ -7,7 +7,7 @@ from string import punctuation
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.svm import SVC
-import readjsondata as data
+import training as data
 
 
 

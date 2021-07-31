@@ -7,22 +7,22 @@ from string import punctuation
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.svm import SVC
-import readjsondata as data
+import training
 
 
-
+data = training.readjson()
 #TRAINING DATA PREPARATION
-accessUtterances = data.AccessUtterances
-callqualityUtterances = data.CallQualityUtterances
-frozenloadingUtterances = data.FrozenLoadingUtterances
-grmUtterances = data.GRMUtterances
-grsUtterances = data.GRSUtterances
-mobilemanagementUtterances = data.MobileManagementUtterances
-networkUtterances = data.NetworkUtterances
-outlookUtterances = data.OutlookUtterances
-ratingUtterances = data.RatingUtterances
-hardwareUtterances = data.HardwareUtterances
-noneUtterances = data.NoneUtterances
+accessUtterances = data.access
+callqualityUtterances = data.callquality
+frozenloadingUtterances = data.frozenloading
+grmUtterances = data.grm
+grsUtterances = data.grs
+mobilemanagementUtterances = data.mobilemanagement
+networkUtterances = data.network
+outlookUtterances = data.outlook
+ratingUtterances = data.rating
+hardwareUtterances = data.hardware
+noneUtterances = data.none
 
 sw = set(stopwords.words('english') + list(punctuation))
 sw.union(['trouble', 'having'])
@@ -33,12 +33,12 @@ def removeStopwords(utterance):
 def removeStopwordsList(utterances):
     return [u for u in list(map(removeStopwords, utterances)) if u]
 
+'''
 #param: list<utterance>
 #return: list<words>
 def bagOfWords(utterances):
     utterances = list(filter(lambda s: s , list(map(removeStopwords, utterances))))
     return [word.lower() for u in utterances for word in u.split()]
-
 accessWords = bagOfWords(accessUtterances)
 callqualityWords = bagOfWords(callqualityUtterances)
 frozenloadingWords = bagOfWords(frozenloadingUtterances)
@@ -49,7 +49,7 @@ networkWords = bagOfWords(networkUtterances)
 outlookWords = bagOfWords(outlookUtterances)
 ratingWords = bagOfWords(ratingUtterances)
 hardwareWords = bagOfWords(hardwareUtterances)
-noneWords = bagOfWords(noneUtterances)
+noneWords = bagOfWords(noneUtterances)'''
 
 accessUtterances = removeStopwordsList(accessUtterances)
 callqualityUtterances = removeStopwordsList(callqualityUtterances)
