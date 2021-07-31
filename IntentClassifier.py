@@ -63,7 +63,8 @@ ratingUtterances = removeStopwordsList(ratingUtterances)
 hardwareUtterances = removeStopwordsList(hardwareUtterances)
 noneUtterances = removeStopwordsList(noneUtterances)
 
-vectorizer = CountVectorizer(ngram_range=(1, 2), token_pattern=r'\b\w+\b', min_df=1)
+vectorizer = TfidfVectorizer(min_df = 5, max_df = 0.8, sublinear_tf = True, use_idf = True, ngram_range=(1, 2))
+#vectorizer = CountVectorizer(ngram_range=(1, 2), token_pattern=r'\b\w+\b', min_df=1)
 train_vectors = vectorizer.fit_transform(
     accessUtterances + 
     callqualityUtterances + 
