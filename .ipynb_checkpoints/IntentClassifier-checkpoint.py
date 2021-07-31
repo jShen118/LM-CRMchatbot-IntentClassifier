@@ -3,7 +3,7 @@
 '''
 
 from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer
+from nltk.stem import PorterStemmer, LancasterStemmer
 from string import punctuation
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
@@ -60,17 +60,30 @@ train_vectors = vectorizer.fit_transform(
     hardwareNormalized + 
     noneNormalized
 )
-labelsList = ['Intent.AccessIssues'] * len(accessNormalized)
-labelsList += ['Intent.CallQualityIssues'] * len(callqualityNormalized)
-labelsList += ['Intent.FrozenLoadingIssue'] * len(frozenloadingNormalized)
-labelsList += ['Intent.GRMIssues'] * len(grmNormalized)
-labelsList += ['Intent.GRSIssues'] * len(grsNormalized)
-labelsList += ['Intent.MobileManagement'] * len(mobilemanagementNormalized)
-labelsList += ['Intent.NetworkIssues'] * len(networkNormalized)
-labelsList += ['Intent.OutlookIssues'] * len(outlookNormalized)
-labelsList += ['Intent.RatingIssues'] * len(ratingNormalized)
-labelsList += ['Intent.HardWareIssues'] * len(hardwareNormalized)
-labelsList += ['None'] * len(noneNormalized)
+intents = [
+        'Intent.AccessIssues',
+        'Intent.CallQualityIssues',
+        'Intent.FrozenLoadingIssue',
+        'Intent.GRMIssues',
+        'Intent.GRSIssues',
+        'Intent.MobileManagement',
+        'Intent.NetworkIssues',
+        'Intent.OutlookIssues',
+        'Intent.RatingIssues',
+        'Intent.HardWareIssues',
+        'None'
+    ]
+labelsList = [intents[0]] * len(accessNormalized)
+labelsList += [intents[1]] * len(callqualityNormalized)
+labelsList += [intents[2]] * len(frozenloadingNormalized)
+labelsList += [intents[3]] * len(grmNormalized)
+labelsList += [intents[4]] * len(grsNormalized)
+labelsList += [intents[5]] * len(mobilemanagementNormalized)
+labelsList += [intents[6]] * len(networkNormalized)
+labelsList += [intents[7]] * len(outlookNormalized)
+labelsList += [intents[8]] * len(ratingNormalized)
+labelsList += [intents[9]] * len(hardwareNormalized)
+labelsList += [intents[10]] * len(noneNormalized)
 
 classifier_linear = SVC(kernel='linear', probability = True)
 classifier_linear.fit(train_vectors, labelsList)
@@ -82,26 +95,38 @@ classifier_sigmoid = SVC(kernel='sigmoid', probability = True)
 classifier_sigmoid.fit(train_vectors, labelsList)
 
 # svm kernel can be ‘linear’, ‘poly’, ‘rbf’, or ‘sigmoid’
-def SVMclassify(utterance, kernel):
+#returns (<intent>, list<(<probability>, <intent>)>)
+def SVMpredict(utterance, kernel):
     utterance = removeStopwords(utterance)
-    utterance_vector = vectorizer.transform([utterance]) # vectorizing
+    utterance_vector = vectorizer.transform([utterance])
+        
     if kernel == 'linear':
         return (classifier_linear.predict(utterance_vector)[0], max(classifier_linear.predict_proba(utterance_vector)[0]))
     elif kernel == 'poly':
         return (classifier_poly.predict(utterance_vector)[0], max(classifier_poly.predict_proba(utterance_vector)[0]))
     elif kernel == 'rbf':
-        return (classifier_rbf.predict(utterance_vector)[0], max(classifier_rbf.predict_proba(utterance_vector)[0]))
+        probabilities = classifier_rbf.predict_proba(utterance_vector)[0]
+        return (classifier_rbf.predict(utterance_vector)[0], sorted(zip(probabilities, intents), reverse = True))
     elif kernel == 'sigmoid':
         return (classifier_sigmoid.predict(utterance_vector)[0], max(classifier_sigmoid.predict_proba(utterance_vector)[0]))
     return None
 
-def SVMclassifyUtterances(utterances, kernel):
-    return [(u, SVMclassify(u, kernel)) for u in utterances]
+def SVMpredictUtterances(utterances, kernel):
+    return [(u, SVMpredict(u, kernel)) for u in utterances]
 
-#param [(<comment>, (<label>, <confidence>))]
-def printLabels(labelledUtterances):
-    print('OUTPUT OF SUPPORT VECTOR MACHINE CLASSIFIER:\n\n')
-    for lu in labelledUtterances:
-        print(lu[1][0].upper(), round(lu[1][1], 3), ':', f'\"{lu[0]}\"', '\n')
-
-
+#predictions is (<intent>, list<(<probability>, <intent>)>)
+#returns (<intent>, <probability>)
+def classify(predictions):
+    #if predictions[0] != predictions[1][0]: print('PREDICTION PROBABILITY MISMATCH')
+    #first for loop is for None override condition
+    #second for loop is for finding the classifier.predict probability
+        #unfortunately the top prediction probability does not always match with the .predict return
+        #has something to do with Platt scaling https://ronie.medium.com/sklearn-svc-predict-vs-predict-proba-e594293153c1
+    for p in predictions[1]:
+        if p[1] == 'None' and p[0] > 0.11:
+            return ('None', p[0])
+    for p in predictions[1]:
+        if p[1] == predictions[0]:
+            return (predictions[0], p[0])
+    print('THIS SHOULD NEVER EXECUTE')
+    return None

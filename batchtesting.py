@@ -74,9 +74,8 @@ def batchtest(file, kernel, verbose):
     falseNeg = intentsDict()
     
     for d in data:
-        label = ic.SVMclassify(d['text'], kernel)
+        label = ic.classify(ic.SVMpredict(d['text'], kernel))
         labelledUtterance = f'Labeled {label[0]} {round(label[1], 3)} | Actually ' + d['intent'] + ' | ' + d['text']
-        #labelledUtterance = f'Labeled {label[0]} {label[1]} '
         if label[0] == d['intent']:
             #for each right classification there's a true positive (and a true negative but that doesn't factor into f-score)
             truePos[label[0]] += 1
