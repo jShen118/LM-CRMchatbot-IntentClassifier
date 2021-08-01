@@ -138,7 +138,7 @@ def runBatchtests(files):
     dfdata.append(avgRow)
     df = pd.DataFrame(dfdata, columns=shorthandIntents+['Avg'], index=[shortenPath(f) for f in files]+['Avg'])
     display(df)
-    
+    df.plot(kind='bar', figsize=(13,9), xlabel='Batch Test', ylabel='F-Score')
 
 
 
