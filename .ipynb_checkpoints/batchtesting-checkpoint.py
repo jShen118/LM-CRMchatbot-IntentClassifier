@@ -62,7 +62,7 @@ def printFScores(truePos, falsePos, falseNeg):
     print(toPrint)
 
 
-def batchtest(file, kernel, verbose):
+def batchtest(file, verbose, kernel='rbf'):
     f = open(file)
     data = json.load(f)
     correct = []

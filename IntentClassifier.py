@@ -5,8 +5,7 @@
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer, LancasterStemmer
 from string import punctuation
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer, HashingVectorizer
 from sklearn.svm import SVC
 import rwjson
 
@@ -45,8 +44,9 @@ noneNormalized = normalizeUtterances(data.none)
 
 
 #Training Support Vector Machines
-vectorizer = TfidfVectorizer(min_df = 5, max_df = 0.8, sublinear_tf = True, use_idf = True, ngram_range=(1, 2))
-#vectorizer = CountVectorizer(ngram_range=(1, 2), token_pattern=r'\b\w+\b', min_df=1)
+#vectorizer = CountVectorizer(min_df = 3, max_df = 0.25, ngram_range=(1, 2))
+vectorizer = TfidfVectorizer(min_df = 3, max_df = 0.25, sublinear_tf = True, ngram_range=(1, 3))
+#vectorizer = HashingVectorizer(ngram_range=(1, 2))
 train_vectors = vectorizer.fit_transform(
     accessNormalized + 
     callqualityNormalized + 
@@ -85,30 +85,34 @@ labelsList += [intents[8]] * len(ratingNormalized)
 labelsList += [intents[9]] * len(hardwareNormalized)
 labelsList += [intents[10]] * len(noneNormalized)
 
-classifier_linear = SVC(kernel='linear', probability = True)
+#https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html#sklearn.svm.SVC.fit
+C = 1 #penalty for missclassified vectors
+classifier_linear = SVC(kernel='linear', probability = True, C=C)
 classifier_linear.fit(train_vectors, labelsList)
-classifier_poly = SVC(kernel='poly', probability = True)
+classifier_poly = SVC(kernel='poly', probability = True, C=C)
 classifier_poly.fit(train_vectors, labelsList)
-classifier_rbf = SVC(kernel='rbf', probability = True)
+classifier_rbf = SVC(kernel='rbf', probability = True, C=C)
 classifier_rbf.fit(train_vectors, labelsList)
-classifier_sigmoid = SVC(kernel='sigmoid', probability = True)
+classifier_sigmoid = SVC(kernel='sigmoid', probability = True, C=C)
 classifier_sigmoid.fit(train_vectors, labelsList)
 
 # svm kernel can be ‘linear’, ‘poly’, ‘rbf’, or ‘sigmoid’
 #returns (<intent>, list<(<probability>, <intent>)>)
-def SVMpredict(utterance, kernel):
-    utterance = removeStopwords(utterance)
-    utterance_vector = vectorizer.transform([utterance])
+def SVMpredict(utterance, kernel='rbf'):
+    utterance_vector = vectorizer.transform([normalize(utterance)])
         
     if kernel == 'linear':
-        return (classifier_linear.predict(utterance_vector)[0], max(classifier_linear.predict_proba(utterance_vector)[0]))
+        probabilities = classifier_linear.predict_proba(utterance_vector)[0]
+        return (classifier_linear.predict(utterance_vector)[0], sorted(zip(probabilities, intents), reverse = True))
     elif kernel == 'poly':
-        return (classifier_poly.predict(utterance_vector)[0], max(classifier_poly.predict_proba(utterance_vector)[0]))
+        probabilities = classifier_poly.predict_proba(utterance_vector)[0]
+        return (classifier_poly.predict(utterance_vector)[0], sorted(zip(probabilities, intents), reverse = True))
     elif kernel == 'rbf':
         probabilities = classifier_rbf.predict_proba(utterance_vector)[0]
         return (classifier_rbf.predict(utterance_vector)[0], sorted(zip(probabilities, intents), reverse = True))
     elif kernel == 'sigmoid':
-        return (classifier_sigmoid.predict(utterance_vector)[0], max(classifier_sigmoid.predict_proba(utterance_vector)[0]))
+        probabilities = classifier_sigmoid.predict_proba(utterance_vector)[0]
+        return (classifier_sigmoid.predict(utterance_vector)[0], sorted(zip(probabilities, intents), reverse = True))
     return None
 
 def SVMpredictUtterances(utterances, kernel):
@@ -117,11 +121,12 @@ def SVMpredictUtterances(utterances, kernel):
 #predictions is (<intent>, list<(<probability>, <intent>)>)
 #returns (<intent>, <probability>)
 def classify(predictions):
-    #if predictions[0] != predictions[1][0]: print('PREDICTION PROBABILITY MISMATCH')
+    #if predictions[0] != predictions[1][0][1]: print('mismatch')
     #first for loop is for None override condition
     #second for loop is for finding the classifier.predict probability
-        #unfortunately the top prediction probability does not always match with the .predict return
+        #unfortunately the top prediction probability does not always match with the predict return
         #has something to do with Platt scaling https://ronie.medium.com/sklearn-svc-predict-vs-predict-proba-e594293153c1
+        #takeaway is that probability in the case of mismatch is less important than predict result
     for p in predictions[1]:
         if p[1] == 'None' and p[0] > 0.11:
             return ('None', p[0])
