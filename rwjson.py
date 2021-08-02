@@ -1,6 +1,7 @@
 '''
 This is a python script to read data from training.json to split utterances by their intents into separate lists.
-There should be 411 total utterances that span over 11 intents (including None):
+There's also a function to write to labeled utterances to training.json
+There should be 411-ish total utterances that span over 11 intents (including None):
     Intent.AccessIssues
     Intent.CallQualityIssues
     Intent.FrozenLoadingIssue
@@ -17,7 +18,7 @@ There should be 411 total utterances that span over 11 intents (including None):
 import json
 
 #reads from training.json and returns Utterances object
-def readjson():
+def readtrainingjson():
     class Utterances:
         access = []
         callquality = []
@@ -63,6 +64,20 @@ def readjson():
     f.close() 
     return Utterances
 
+#data is list<(<utterance>, <intent>)>
+def writetrainingjson(data):
+    # Read JSON file
+    with open('training.json') as trainingjson:
+        jsonData = json.load(trainingjson)
+    for d in data:
+        jsonObject = {
+            'text': d[0],
+            'intentName': d[1],
+            'entityLabels': []
+        }
+        jsonData.append(jsonObject)
+    with open('training.json','w') as trainingjson :
+        json.dump(jsonData, trainingjson, indent=4, separators=(',',': '))
     
 '''
 printUtterances(AccessUtterances, 'Intent.AccessIssues')

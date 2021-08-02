@@ -28,7 +28,7 @@ def normalizeUtterances(utterances):
     return list(map(normalize, utterances))
 
 
-data = rwjson.readjson()
+data = rwjson.readtrainingjson()
 
 accessNormalized = normalizeUtterances(data.access)
 callqualityNormalized = normalizeUtterances(data.callquality)

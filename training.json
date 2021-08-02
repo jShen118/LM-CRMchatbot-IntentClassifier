@@ -1997,9 +1997,6 @@
             }
         ]
     },
-    
-    
-    
     {
         "text": "no able to share screen or receive screen share via MS Teams App.",
         "intentName": "Intent.CallQualityIssues",
@@ -3370,9 +3367,6 @@
             }
         ]
     },
-    
-    
-    
     {
         "text": "unable to connect to printer",
         "intentName": "Intent.HardWareIssues",
@@ -4221,9 +4215,6 @@
             }
         ]
     },
-    
-    
-    
     {
         "text": "Replacement computer backup/migrate data",
         "intentName": "None",
@@ -4454,7 +4445,7 @@
     {
         "text": "need to connect docking station",
         "intentName": "Intent.HardWareIssues",
-        "entityLabels": [] 
+        "entityLabels": []
     },
     {
         "text": "local sales office printer not recognizing badges",
@@ -5624,16 +5615,13 @@
             }
         ]
     },
-    
-    
-    
     {
         "text": "TEAMS will not open",
         "intentName": "Intent.FrozenLoadingIssue",
         "entityLabels": []
     },
     {
-        "text":"VDI is slow. Need additional ram or cpu.",
+        "text": "VDI is slow. Need additional ram or cpu.",
         "intentName": "Intent.FrozenLoadingIssue",
         "entityLabels": []
     },
@@ -5939,7 +5927,7 @@
         ]
     },
     {
-        "text": "i can't get my second monitor to work.  It was working and then lost signal",
+        "text": "i can't get my second monitor to work.\u00c2\u00a0 It was working and then lost signal",
         "intentName": "Intent.FrozenLoadingIssue",
         "entityLabels": []
     },
@@ -5981,7 +5969,7 @@
         ]
     },
     {
-        "text": "citrix is orking very slow.. inter mittently … it freezes",
+        "text": "citrix is orking very slow.. inter mittently \u00e2\u20ac\u00a6 it freezes",
         "intentName": "Intent.FrozenLoadingIssue",
         "entityLabels": [
             {
@@ -6237,9 +6225,6 @@
             }
         ]
     },
-    
-    
-    
     {
         "text": "i am having some issues with avaya having a lot of static on phone calls\u00c2\u00a0",
         "intentName": "Intent.CallQualityIssues",
