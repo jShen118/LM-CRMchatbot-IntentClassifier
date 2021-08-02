@@ -1,5 +1,36 @@
 '''
+Intent Labelling Criteria:
 
+    Intent.AccessIssues 
+        any permissions issue where you need to submit an RIT or go through script to get access regardless of application
+        neglect access issues if frozenloading, or mobilemanagement entities. maybe outlook too
+        if ML.Issues.Access and LDAP permissions issue, then Intent.AccessIssues
+        if ML.Issues.Access and (ML.Apps.MSOffice0365Products or ML.Apps.GRM or ML.Apps.GRS), then Intent.AccessIssues
+        if ML.Issues.Access and ML.Issues.FrozenLoading, 
+        
+    Intent.CallQualityIssues
+        
+    
+    Intent.FrozenLoadingIssue
+        pattern <> <> <>
+    
+    Intent.GRMIssues
+    
+    Intent.GRSIssues
+    
+    Intent.MobileManagement
+    
+    Intent.NetworkIssues
+    
+    Intent.OutlookIssues
+    
+    Intent.RatingIssues
+    
+    Intent.HardWareIssues
+    
+    None
+    
+    
 '''
 
 from nltk.corpus import stopwords

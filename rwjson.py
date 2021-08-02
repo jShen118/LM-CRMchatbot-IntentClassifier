@@ -35,7 +35,7 @@ def readtrainingjson():
     f = open('training.json')
     data = json.load(f)
     for d in data:
-        intent = d['intentName']
+        intent = d['intent']
         utterance = d['text']
         if intent == 'Intent.AccessIssues':
             Utterances.access.append(utterance)

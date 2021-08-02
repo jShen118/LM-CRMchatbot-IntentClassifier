@@ -1,5 +1,31 @@
 '''
+Intent Labelling Criteria:
 
+    Intent.AccessIssues 
+        any permissions issue where you need to submit an RIT or go through script to get access regardless of application
+        neglect access issues if frozenloading, outlook, or mobilemanagement entities
+        
+    Intent.CallQualityIssues
+    
+    Intent.FrozenLoadingIssue 
+    
+    Intent.GRMIssues
+    
+    Intent.GRSIssues
+    
+    Intent.MobileManagement
+    
+    Intent.NetworkIssues
+    
+    Intent.OutlookIssues
+    
+    Intent.RatingIssues
+    
+    Intent.HardWareIssues
+    
+    None
+    
+    
 '''
 
 from nltk.corpus import stopwords
