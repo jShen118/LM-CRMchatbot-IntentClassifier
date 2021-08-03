@@ -149,6 +149,12 @@ def SVMpredict(utterance, kernel='rbf'):
 def SVMpredictUtterances(utterances, kernel):
     return [(u, SVMpredict(u, kernel)) for u in utterances]
 
+
+
+
+
+
+
 #predictions is (<intent>, list<(<probability>, <intent>)>)
 #returns (<intent>, <probability>)
 def classify(predictions):
@@ -166,3 +172,18 @@ def classify(predictions):
             return (predictions[0], p[0])
     print('THIS SHOULD NEVER EXECUTE')
     return None
+
+#param: list<utterances>
+#returns list<(<intent>, list<(<probability>, <intent>)>)>
+def SVMpredictMultiple(utterances, kernel='rbf'):
+    toRet = [None] * len(utterances)
+    for i in range(len(utterances)):
+        toRet[i] = SVMpredict(utterances[i], kernel)
+    return toRet
+    
+# returns list<(<intent>, <probability>)>
+def classifyMultiple(predictionsList):
+    toRet = [None] * len(predictionsList)
+    for i in range(len(predictionsList)):
+        toRet[i] = classify(predictionsList[i])
+    return toRet

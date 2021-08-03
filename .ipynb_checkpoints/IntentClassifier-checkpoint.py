@@ -3,11 +3,16 @@ Intent Labelling Criteria:
 
     Intent.AccessIssues 
         any permissions issue where you need to submit an RIT or go through script to get access regardless of application
-        neglect access issues if frozenloading, outlook, or mobilemanagement entities
+        neglect access issues if frozenloading, or mobilemanagement entities. maybe outlook too
+        if ML.Issues.Access and LDAP permissions issue, then Intent.AccessIssues
+        if ML.Issues.Access and (ML.Apps.MSOffice0365Products or ML.Apps.GRM or ML.Apps.GRS), then Intent.AccessIssues
+        if ML.Issues.Access and ML.Issues.FrozenLoading, 
         
     Intent.CallQualityIssues
+        
     
-    Intent.FrozenLoadingIssue 
+    Intent.FrozenLoadingIssue
+        pattern <> <> <>
     
     Intent.GRMIssues
     
@@ -144,6 +149,12 @@ def SVMpredict(utterance, kernel='rbf'):
 def SVMpredictUtterances(utterances, kernel):
     return [(u, SVMpredict(u, kernel)) for u in utterances]
 
+
+
+
+
+
+
 #predictions is (<intent>, list<(<probability>, <intent>)>)
 #returns (<intent>, <probability>)
 def classify(predictions):
@@ -161,3 +172,18 @@ def classify(predictions):
             return (predictions[0], p[0])
     print('THIS SHOULD NEVER EXECUTE')
     return None
+
+#param: list<utterances>
+#returns list<(<intent>, list<(<probability>, <intent>)>)>
+def SVMpredictMultiple(utterances, kernel='rbf'):
+    toRet = [None] * len(utterances)
+    for i in range(len(utterances)):
+        toRet[i] = SVMpredict(utterances[i], kernel)
+    return toRet
+    
+# returns list<(<intent>, <probability>)>
+def classifyMultiple(predictionsList):
+    toRet = [None] * len(predictionsList)
+    for i in range(len(predictionsList)):
+        toRet[i] = classify(predictionsList[i])
+    return toRet
