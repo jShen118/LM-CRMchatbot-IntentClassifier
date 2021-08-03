@@ -30,7 +30,7 @@
         "entities": []
     },
     {
-        "text": "Update Midway hierarchy ",
+        "text": "Update Midway hierarchy ",
         "intent": "Intent.GRSIssues",
         "entities": []
     },
@@ -206,7 +206,7 @@
     },
     {
         "text": "email access",
-        "intent": "Intent.OutlookIssues",
+        "intent": "Intent.AccessIssues",
         "entities": []
     },
     {
@@ -230,7 +230,7 @@
         "entities": []
     },
     {
-        "text": "errors with avaya causing calls to drop and istar to crash. ",
+        "text": "errors with avaya causing calls to drop and istar to crash. ",
         "intent": "Intent.CallQualityIssues",
         "entities": []
     },
@@ -246,7 +246,7 @@
     },
     {
         "text": "COMPASS_Split composite rate",
-        "intent": "Intent.GRSIssues",
+        "intent": "Intent.RatingIssues",
         "entities": []
     },
     {
@@ -266,7 +266,7 @@
     },
     {
         "text": "Help with accessing navigator online.",
-        "intent": "Intent.GRMIssues",
+        "intent": "Intent.AccessIssues",
         "entities": []
     },
     {
@@ -301,7 +301,7 @@
     },
     {
         "text": "outlook on company phone",
-        "intent": "Intent.OutlookIssues",
+        "intent": "Intent.MobileManagement",
         "entities": []
     },
     {
@@ -310,12 +310,12 @@
         "entities": []
     },
     {
-        "text": "I  need help with my outlook inbox screen view",
+        "text": "I  need help with my outlook inbox screen view",
         "intent": "Intent.OutlookIssues",
         "entities": []
     },
     {
-        "text": " voicemail password reset Also need to register account with N2uituve",
+        "text": "voicemail password reset Also need to register account with N2uituve",
         "intent": "Intent.AccessIssues",
         "entities": []
     },
@@ -330,7 +330,7 @@
         "entities": []
     },
     {
-        "text": "I am trying to log into my Salesforce  Im getting a single sign on error?",
+        "text": "I am trying to log into my Salesforce Im getting a single sign on error?",
         "intent": "Intent.AccessIssues",
         "entities": []
     },
@@ -345,13 +345,13 @@
         "entities": []
     },
     {
-        "text": "I need assistance with getting the avaya agent  on my start menu",
+        "text": "I need assistance with getting the avaya agent on my start menu",
         "intent": "Intent.CallQualityIssues",
         "entities": []
     },
     {
         "text": "My 1st monitor displaying everything really big",
-        "intent": "None",
+        "intent": "Intent.HardWareIssues",
         "entities": []
     },
     {
@@ -360,7 +360,7 @@
         "entities": []
     },
     {
-        "text": "suspicious emial",
+        "text": "suspicious email",
         "intent": "Intent.OutlookIssues",
         "entities": []
     },

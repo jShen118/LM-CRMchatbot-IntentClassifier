@@ -10,7 +10,7 @@
         "entities": []
     },
     {
-        "text": "Good morning ",
+        "text": "Good morning ",
         "intent": "None",
         "entities": []
     },
@@ -75,7 +75,7 @@
         "entities": []
     },
     {
-        "text": "nice engage  is freezing screen scrapes. confirmed this is not just me",
+        "text": "nice engage is freezing screen scrapes. confirmed this is not just me",
         "intent": "Intent.FrozenLoadingIssue",
         "entities": []
     },
@@ -101,7 +101,7 @@
     },
     {
         "text": "My Outlook will not open",
-        "intent": "Intent.OutlookIssues",
+        "intent": "Intent.FrozenLoadingIssue",
         "entities": []
     },
     {
@@ -181,7 +181,7 @@
     },
     {
         "text": "taking state test on secure browser",
-        "intent": "Intent.NetworkIssues",
+        "intent": "None",
         "entities": []
     },
     {
@@ -191,12 +191,12 @@
     },
     {
         "text": "my webpages weren't loading. how do I clear cookies?",
-        "intent": "None",
+        "intent": "Intent.FrozenLoadingIssue",
         "entities": []
     },
     {
         "text": "im trying to figure out how to get into navigator",
-        "intent": "Intent.NetworkIssues",
+        "intent": "Intent.AccessIssues",
         "entities": []
     },
     {
@@ -260,7 +260,7 @@
         "entities": []
     },
     {
-        "text": "Office 365,slow, Contacting Server Prompt on every e-mail, frustrating.",
+        "text": "Office 365, slow, Contacting Server Prompt on every e-mail, frustrating.",
         "intent": "Intent.FrozenLoadingIssue",
         "entities": []
     },
@@ -281,7 +281,7 @@
     },
     {
         "text": "I am unable to open documents in Watson.",
-        "intent": "Intent.AccessIssues",
+        "intent": "Intent.FrozenLoadingIssue",
         "entities": []
     },
     {
@@ -295,7 +295,7 @@
         "entities": []
     },
     {
-        "text": "Good morning team... My RSA token ID isn't working... ",
+        "text": "Good morning team... My RSA token ID isn't working... ",
         "intent": "Intent.NetworkIssues",
         "entities": []
     },
@@ -346,7 +346,7 @@
     },
     {
         "text": "My monitor flashes blank intermittently.",
-        "intent": "Intent.FrozenLoadingIssue",
+        "intent": "Intent.HardWareIssues",
         "entities": []
     },
     {

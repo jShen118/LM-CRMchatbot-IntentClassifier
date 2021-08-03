@@ -5,7 +5,7 @@
         "entities": []
     },
     {
-        "text": "Can' Access rating",
+        "text": "Can't access rating",
         "intent": "Intent.RatingIssues",
         "entities": []
     },
@@ -85,12 +85,12 @@
         "entities": []
     },
     {
-        "text": "having avaya issues as far as connectivity goes with it being intermittent ",
+        "text": "having avaya issues as far as connectivity goes with it being intermittent ",
         "intent": "Intent.CallQualityIssues",
         "entities": []
     },
     {
-        "text": "Can I get help setting up my monitors? ",
+        "text": "Can I get help setting up my monitors? ",
         "intent": "Intent.HardWareIssues",
         "entities": []
     },
@@ -111,7 +111,7 @@
     },
     {
         "text": "Need permission with CCure and installing Microsoft teams",
-        "intent": "Intent.GRMIssues",
+        "intent": "Intent.AccessIssues",
         "entities": []
     },
     {
@@ -151,7 +151,7 @@
     },
     {
         "text": "I need to stop a computer installation now",
-        "intent": "Intent.FrozenLoadingIssue",
+        "intent": "None",
         "entities": []
     },
     {
@@ -186,7 +186,7 @@
     },
     {
         "text": "Need to open a ticket for POWER BI .. Information not loading",
-        "intent": "Intent.AccessIssues",
+        "intent": "Intent.FrozenLoadingIssue",
         "entities": []
     },
     {
@@ -230,8 +230,8 @@
         "entities": []
     },
     {
-        "text": " token and completed several test and I'm not getting it on my phone",
-        "intent": "Intent.AccessIssues",
+        "text": "token and completed several test and I'm not getting it on my phone",
+        "intent": "Intent.NetworkIssues",
         "entities": []
     },
     {
@@ -276,7 +276,7 @@
     },
     {
         "text": "USB Ethernet adapter stopped working",
-        "intent": "Intent.NetworkIssues",
+        "intent": "Intent.HardWareIssues",
         "entities": []
     },
     {
@@ -331,7 +331,7 @@
     },
     {
         "text": "delete uh",
-        "intent": "None",
+        "intent": "Intent.GRMIssues",
         "entities": []
     },
     {

@@ -1,6 +1,11 @@
 [
     {
         "text": "Issues with NICE ROD",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "Cyberark access blocked",
         "intent": "Intent.AccessIssues",
         "entities": []
     },
@@ -11,7 +16,7 @@
     },
     {
         "text": "Teams isn't opening",
-        "intent": "Intent.AccessIssues",
+        "intent": "Intent.FrozenLoadingIssue",
         "entities": []
     },
     {
@@ -21,12 +26,12 @@
     },
     {
         "text": "issues accessing shared email costco_FROI_reports",
-        "intent": "Intent.AccessIssues",
+        "intent": "Intent.OutlookIssues",
         "entities": []
     },
     {
         "text": "I'm having systems issues - EPIC - receiving error messages and crashing ",
-        "intent": "Intent.AccessIssues",
+        "intent": "Intent.FrozenLoadingIssue",
         "entities": []
     },
     {
@@ -76,7 +81,7 @@
     },
     {
         "text": "I am unable to access express or triton",
-        "intent": "Intent.CallQualityIssues",
+        "intent": "Intent.AccessIssues",
         "entities": []
     },
     {
@@ -86,11 +91,6 @@
     },
     {
         "text": "receiving Istar communication error",
-        "intent": "Intent.CallQualityIssues",
-        "entities": []
-    },
-    {
-        "text": "can call out on avaya, but hear no sound. COnfirmed LL has not had upgrade",
         "intent": "Intent.CallQualityIssues",
         "entities": []
     },
@@ -116,22 +116,17 @@
     },
     {
         "text": "Need help with Zscaler accessing time management page as it is not loading",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entities": []
-    },
-    {
-        "text": "need to kill sas",
-        "intent": "Intent.FrozenLoadingIssue",
+        "intent": "Intent.NetworkIssues",
         "entities": []
     },
     {
         "text": "NICE agent not showing",
-        "intent": "Intent.FrozenLoadingIssue",
+        "intent": "Intent.CallQualityIssues",
         "entities": []
     },
     {
         "text": "Trying to email quotes but it keeps saying processing",
-        "intent": "Intent.FrozenLoadingIssue",
+        "intent": "Intent.OutlookIssues",
         "entities": []
     },
     {
@@ -150,8 +145,18 @@
         "entities": []
     },
     {
+        "text": "DMS loading to a white page.",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
+        "text": "Microsoft Teams will not load",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
         "text": "I would like to set up click to dial in Lumen",
-        "intent": "Intent.GRMIssues",
+        "intent": "None",
         "entities": []
     },
     {
@@ -175,7 +180,7 @@
         "entities": []
     },
     {
-        "text": "need  to discuss policy cancellations",
+        "text": "need to discuss policy cancellations",
         "intent": "Intent.GRMIssues",
         "entities": []
     },
@@ -185,18 +190,33 @@
         "entities": []
     },
     {
+        "text": "Unable to substitute vehicle in liability policy due to Assertion Error",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
         "text": "Log in required multiple times for cbs",
         "intent": "Intent.GRMIssues",
         "entities": []
     },
     {
-        "text": "cannot  log into cbs",
+        "text": "Navigator claims software will not allow me to view the EZ docs in the file",
         "intent": "Intent.GRMIssues",
         "entities": []
     },
     {
-        "text": "Silence computer sounds when using CFE",
+        "text": "Error in CSW transaction tab showing Null",
         "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "cannot log into cbs",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "Silence computer sounds when using CFE",
+        "intent": "None",
         "entities": []
     },
     {
@@ -350,11 +370,6 @@
         "entities": []
     },
     {
-        "text": "VPN or internet seem to cut out constantly",
-        "intent": "Intent.NetworkIssues",
-        "entities": []
-    },
-    {
         "text": "- trying to reset my token- cannot get into vpn",
         "intent": "Intent.NetworkIssues",
         "entities": []
@@ -405,11 +420,6 @@
         "entities": []
     },
     {
-        "text": "Creating a rule in a shred outlook mailbox",
-        "intent": "Intent.OutlookIssues",
-        "entities": []
-    },
-    {
         "text": "Reviewing termed EE's emails in Outlook but folder will not expand",
         "intent": "Intent.OutlookIssues",
         "entities": []
@@ -426,7 +436,7 @@
     },
     {
         "text": "Login issues and Outlook crash",
-        "intent": "Intent.OutlookIssues",
+        "intent": "Intent.AccessIssues",
         "entities": []
     },
     {
@@ -510,11 +520,6 @@
         "entities": []
     },
     {
-        "text": "Need help with Confluence wiki page",
-        "intent": "None",
-        "entities": []
-    },
-    {
         "text": "cannot change delivery address on buysmart",
         "intent": "None",
         "entities": []
@@ -531,11 +536,6 @@
     },
     {
         "text": "are we allowed to download paint.net.. if not is there a similar program?",
-        "intent": "None",
-        "entities": []
-    },
-    {
-        "text": "INC000010332053 please ref this number",
         "intent": "None",
         "entities": []
     },

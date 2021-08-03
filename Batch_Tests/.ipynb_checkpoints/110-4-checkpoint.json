@@ -1,7 +1,22 @@
 [
     {
-        "text": "How do I update my expired cached credentials on word",
+        "text": "unable to access CEP",
         "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "Unable to access website",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "Genius Password Reset",
+        "intent": "Intent.AccessIssues",
+        "entities": []
+    },
+    {
+        "text": "How do I update my expired cached credentials on word",
+        "intent": "None",
         "entities": []
     },
     {
@@ -11,7 +26,7 @@
     },
     {
         "text": "Setting up new device and need to install VIA",
-        "intent": "Intent.AccessIssues",
+        "intent": "Intent.GRMIssues",
         "entities": []
     },
     {
@@ -21,7 +36,7 @@
     },
     {
         "text": "How to properly download Putty",
-        "intent": "Intent.AccessIssues",
+        "intent": "None",
         "entities": []
     },
     {
@@ -41,17 +56,12 @@
     },
     {
         "text": "ECM is not being installed",
-        "intent": "Intent.AccessIssues",
+        "intent": "Intent.GRMIssues",
         "entities": []
     },
     {
         "text": "Unable to log in to Istar",
         "intent": "Intent.AccessIssues",
-        "entities": []
-    },
-    {
-        "text": "I am trying to get my Nice Engage application client 6.10 installed",
-        "intent": "Intent.CallQualityIssues",
         "entities": []
     },
     {
@@ -110,6 +120,11 @@
         "entities": []
     },
     {
+        "text": "InView not loading",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entities": []
+    },
+    {
         "text": "MyAssets returns a 400 error and will not load",
         "intent": "Intent.FrozenLoadingIssue",
         "entities": []
@@ -120,8 +135,8 @@
         "entities": []
     },
     {
-        "text": "  Via is down? I am getting all red and it says it is under maintenance",
-        "intent": "Intent.FrozenLoadingIssue",
+        "text": "Via is down? I am getting all red and it says it is under maintenance",
+        "intent": "None",
         "entities": []
     },
     {
@@ -151,7 +166,7 @@
     },
     {
         "text": "I am having latency issues with my mouse or keyboard freezing",
-        "intent": "Intent.FrozenLoadingIssue",
+        "intent": "Intent.HardWareIssues",
         "entities": []
     },
     {
@@ -161,21 +176,6 @@
     },
     {
         "text": "Claims handling Reassignment errors in Navigator",
-        "intent": "Intent.GRMIssues",
-        "entities": []
-    },
-    {
-        "text": "I need a rental reservation cancelled in Nav.",
-        "intent": "Intent.GRMIssues",
-        "entities": []
-    },
-    {
-        "text": "Inactive on nav",
-        "intent": "Intent.GRMIssues",
-        "entities": []
-    },
-    {
-        "text": "Unable to substitute vehicle in liability policy due to Assertion Error",
         "intent": "Intent.GRMIssues",
         "entities": []
     },
@@ -266,7 +266,7 @@
     },
     {
         "text": "VDI is slow.. need additional ram or CPU",
-        "intent": "Intent.HardWareIssues",
+        "intent": "Intent.FrozenLoadingIssue",
         "entities": []
     },
     {
@@ -280,7 +280,7 @@
         "entities": []
     },
     {
-        "text": "set up thrid monitor",
+        "text": "set up third monitor",
         "intent": "Intent.HardWareIssues",
         "entities": []
     },
@@ -306,7 +306,7 @@
     },
     {
         "text": "Do I have a work phone number?",
-        "intent": "Intent.MobileManagement",
+        "intent": "None",
         "entities": []
     },
     {
@@ -355,12 +355,22 @@
         "entities": []
     },
     {
+        "text": "PingID for new phone",
+        "intent": "Intent.MobileManagement",
+        "entities": []
+    },
+    {
         "text": "username is incorrect to set-up 2 factor via https://aka.ms/mfasetup",
-        "intent": "Intent.NetworkIssues",
+        "intent": "Intent.AccessIssues",
         "entities": []
     },
     {
         "text": "i need to activate a new mifi",
+        "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "VPN or internet seem to cut out constantly",
         "intent": "Intent.NetworkIssues",
         "entities": []
     },
@@ -405,17 +415,22 @@
         "entities": []
     },
     {
-        "text": "RightFax setup.  I'm a new hire.",
+        "text": "RightFax setup. I'm a new hire.",
         "intent": "Intent.OutlookIssues",
         "entities": []
     },
     {
         "text": "I am trying to figure out a teams channel that was deleted",
-        "intent": "Intent.OutlookIssues",
+        "intent": "None",
         "entities": []
     },
     {
         "text": "Word doc in LF not generating the email",
+        "intent": "Intent.OutlookIssues",
+        "entities": []
+    },
+    {
+        "text": "Creating a rule in a shared outlook mailbox",
         "intent": "Intent.OutlookIssues",
         "entities": []
     },
@@ -506,7 +521,7 @@
     },
     {
         "text": "delete uh",
-        "intent": "None",
+        "intent": "Intent.GRMIssues",
         "entities": []
     },
     {
@@ -516,16 +531,6 @@
     },
     {
         "text": "I am not able to import AMFCON 92 updated file in my existing MS Access",
-        "intent": "None",
-        "entities": []
-    },
-    {
-        "text": "Need to change contact info",
-        "intent": "None",
-        "entities": []
-    },
-    {
-        "text": "OneNote compatibility issue",
         "intent": "None",
         "entities": []
     },
@@ -540,17 +545,7 @@
         "entities": []
     },
     {
-        "text": "instructed to join bridge call",
-        "intent": "None",
-        "entities": []
-    },
-    {
         "text": "facing issue with power bi service",
-        "intent": "None",
-        "entities": []
-    },
-    {
-        "text": "same issue",
         "intent": "None",
         "entities": []
     }

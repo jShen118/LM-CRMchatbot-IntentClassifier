@@ -1,15 +1,5 @@
 [
     {
-        "text": "I need access to PremiumWare Auditor",
-        "intent": "Intent.AccessIssues",
-        "entities": []
-    },
-    {
-        "text": "Request to access claim WC608-C70804 and was granted but still can't access",
-        "intent": "Intent.AccessIssues",
-        "entities": []
-    },
-    {
         "text": "i am trying to log into edi so i can sign into exprs",
         "intent": "Intent.AccessIssues",
         "entities": []
@@ -95,22 +85,22 @@
         "entities": []
     },
     {
-        "text": "Avaya static bursts",
-        "intent": "Intent.CallQualityIssues",
+        "text": "VDI slowness",
+        "intent": "Intent.FrozenLoadingIssue",
         "entities": []
     },
     {
         "text": "need to kill sas",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "Teams desktop app will not launch on computer.",
         "intent": "Intent.FrozenLoadingIssue",
         "entities": []
     },
     {
-        "text": "NICE agent not showing",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entities": []
-    },
-    {
-        "text": "Trying to email quotes but it keeps saying processing",
+        "text": "OFFICE ^ - My microsoft applications won't open.",
         "intent": "Intent.FrozenLoadingIssue",
         "entities": []
     },
@@ -140,7 +130,7 @@
         "entities": []
     },
     {
-        "text": "Remdy page is not loading",
+        "text": "Remedy page is not loading",
         "intent": "Intent.FrozenLoadingIssue",
         "entities": []
     },
@@ -151,6 +141,11 @@
     },
     {
         "text": "Salesforce gives error when opening CSW. Error 127.0.0.1",
+        "intent": "Intent.GRMIssues",
+        "entities": []
+    },
+    {
+        "text": "Navigator - Missing injury details",
         "intent": "Intent.GRMIssues",
         "entities": []
     },
@@ -175,8 +170,8 @@
         "entities": []
     },
     {
-        "text": "     hi , is it possible to get my cmt pw reset?",
-        "intent": "Intent.GRMIssues",
+        "text": "hi, is it possible to get my cmt pw reset?",
+        "intent": "Intent.AccessIssues",
         "entities": []
     },
     {
@@ -330,7 +325,7 @@
         "entities": []
     },
     {
-        "text": "Need to add token to phone ",
+        "text": "Need to add token to phone",
         "intent": "Intent.MobileManagement",
         "entities": []
     },
@@ -380,13 +375,23 @@
         "entities": []
     },
     {
-        "text": "Avaya connectivity quality issue",
+        "text": "VPN not working",
         "intent": "Intent.NetworkIssues",
         "entities": []
     },
     {
-        "text": "I am trying to login in to the two-way mfa authenticator",
+        "text": "RSA token off screen",
         "intent": "Intent.NetworkIssues",
+        "entities": []
+    },
+    {
+        "text": "Avaya connectivity quality issue",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "I am trying to login in to the two-way mfa authenticator",
+        "intent": "Intent.AccessIssues",
         "entities": []
     },
     {
@@ -480,7 +485,7 @@
         "entities": []
     },
     {
-        "text": "Unable to substitute vehicle receiving error while rating",
+        "text": "ABT-291-748056-40-Unable to substitute vehicle receiving error",
         "intent": "Intent.RatingIssues",
         "entities": []
     },
@@ -505,7 +510,7 @@
         "entities": []
     },
     {
-        "text": "  I am having issues with this file 045943665.",
+        "text": " I am having issues with this file 045943665.",
         "intent": "None",
         "entities": []
     },
@@ -535,22 +540,12 @@
         "entities": []
     },
     {
-        "text": "Not clone the repo",
+        "text": "DEPLOYMENT - SQL Server driver install keeps failing",
         "intent": "None",
         "entities": []
     },
     {
-        "text": "other",
-        "intent": "None",
-        "entities": []
-    },
-    {
-        "text": "  can you confirm the most up to data Java we need",
-        "intent": "None",
-        "entities": []
-    },
-    {
-        "text": "i need a new ticket.",
+        "text": "can you confirm the most up to data Java we need",
         "intent": "None",
         "entities": []
     }
