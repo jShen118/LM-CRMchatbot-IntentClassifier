@@ -58,16 +58,39 @@ def createTraining(xlpath, numPerIntent=10):
         #d[1][1] is prediction score of intent label
         jsonObject = {
             'text': d[0],
-            'intentName': d[1][0],
-            'entityLabels': []
+            'intent': d[1][0],
+            'entity': []
         }
         jsonData.append(jsonObject)
     with open('newTraining.json','w') as newjson :
         json.dump(jsonData, newjson, indent=4, separators=(',',': '))
 
-
-
-
+#removes any excess utterances for intents with more utterances than the least
+def balanceCorrectedTraining():
+    with open('newTraining.json') as newtrainingjson:
+        jsonData = json.load(newtrainingjson)
+    access = [jo for jo in jsonData if jo['intent'] == 'Intent.AccessIssues']
+    callquality = [jo for jo in jsonData if jo['intent'] == 'Intent.CallQualityIssues']
+    frozenloading = [jo for jo in jsonData if jo['intent'] == 'Intent.FrozenLoadingIssue']
+    grm = [jo for jo in jsonData if jo['intent'] == 'Intent.GRMIssues']
+    grs = [jo for jo in jsonData if jo['intent'] == 'Intent.GRSIssues']
+    mobilemanagement = [jo for jo in jsonData if jo['intent'] == 'Intent.MobileManagement']
+    network = [jo for jo in jsonData if jo['intent'] == 'Intent.NetworkIssues']
+    outlook = [jo for jo in jsonData if jo['intent'] == 'Intent.OutlookIssues']
+    rating = [jo for jo in jsonData if jo['intent'] == 'Intent.RatingIssues']
+    hardware = [jo for jo in jsonData if jo['intent'] == 'Intent.HardWareIssues']
+    none = [jo for jo in jsonData if jo['intent'] == 'None']
+    intentGroups = [access,callquality,frozenloading,grm,grs,mobilemanagement,network,outlook,rating,hardware,none]
+    shortestLength = len(access)
+    for ig in intentGroups:
+        if len(ig) < shortestLength:
+            shortestLength = len(ig)
+    newjsonData = []
+    for ig in intentGroups:
+        for lu in ig[len(ig)-shortestLength:len(ig)]:
+            newjsonData.append(lu)
+    with open('newTraining.json','w') as newjson :
+        json.dump(newjsonData, newjson, indent=4, separators=(',',': '))
 
 
 
