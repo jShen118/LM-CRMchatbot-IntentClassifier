@@ -91,6 +91,8 @@ def balanceCorrectedTraining():
             newjsonData.append(lu)
     with open('newTraining.json','w') as newjson :
         json.dump(newjsonData, newjson, indent=4, separators=(',',': '))
+        
+
 
 
 

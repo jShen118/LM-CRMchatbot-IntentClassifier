@@ -65,19 +65,16 @@ def readtrainingjson():
     return Utterances
 
 #data is list<(<utterance>, <intent>)>
-def writetrainingjson(data):
-    # Read JSON file
+def pushtrainingjson():
+    # Read JSON files
     with open('training.json') as trainingjson:
-        jsonData = json.load(trainingjson)
-    for d in data:
-        jsonObject = {
-            'text': d[0],
-            'intentName': d[1],
-            'entityLabels': []
-        }
-        jsonData.append(jsonObject)
+        existingData = json.load(trainingjson)
+    with open('newTraining.json') as newtrainingjson:
+        newData = json.load(newtrainingjson)
+    for d in newData:
+        existingData.append(d)
     with open('training.json','w') as trainingjson :
-        json.dump(jsonData, trainingjson, indent=4, separators=(',',': '))
+        json.dump(existingData, trainingjson, indent=4, separators=(',',': '))
     
 '''
 printUtterances(AccessUtterances, 'Intent.AccessIssues')
