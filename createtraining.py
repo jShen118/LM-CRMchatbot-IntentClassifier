@@ -27,6 +27,8 @@ def createTraining(xlpath, numPerIntent=10):
         'Intent.HardWareIssues': 0,
         'None': 0
     }
+    def unique(utterance):
+        return True
     data = []
     for d in allData:
         if len(data) == 11*numPerIntent:

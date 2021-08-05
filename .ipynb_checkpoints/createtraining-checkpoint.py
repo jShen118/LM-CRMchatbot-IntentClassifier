@@ -27,6 +27,8 @@ def createTraining(xlpath, numPerIntent=10):
         'Intent.HardWareIssues': 0,
         'None': 0
     }
+    def unique(utterance):
+        return True
     data = []
     for d in allData:
         if len(data) == 11*numPerIntent:
@@ -82,7 +84,7 @@ def balanceCorrectedTraining():
     none = [jo for jo in jsonData if jo['intent'] == 'None']
     intentGroups = [access,callquality,frozenloading,grm,grs,mobilemanagement,network,outlook,rating,hardware,none]
     shortestLength = len(access)
-    for ig in intentGroups:
+    for ig in intentGroups[0:-1]:
         if len(ig) < shortestLength:
             shortestLength = len(ig)
     newjsonData = []
@@ -91,6 +93,8 @@ def balanceCorrectedTraining():
             newjsonData.append(lu)
     with open('newTraining.json','w') as newjson :
         json.dump(newjsonData, newjson, indent=4, separators=(',',': '))
+        
+
 
 
 

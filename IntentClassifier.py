@@ -43,9 +43,14 @@ import rwjson
 #utterance normalization functions
 def removePunctuation(utterance):
     return utterance.translate(str.maketrans('', '', punctuation))
+'''
+stopwords from nltk.corpus
+['a', 'about', 'above', 'after', 'again', 'against', 'ain', 'all', 'am', 'an', 'and', 'any', 'are', 'aren', "aren't", 'as', 'at', 'be', 'because', 'been', 'before', 'being', 'below', 'between', 'both', 'but', 'by', 'can', 'couldn', "couldn't", 'd', 'did', 'didn', "didn't", 'do', 'does', 'doesn', "doesn't", 'doing', 'don', "don't", 'down', 'during', 'each', 'few', 'for', 'from', 'further', 'had', 'hadn', "hadn't", 'has', 'hasn', "hasn't", 'have', 'haven', "haven't", 'having', 'he', 'her', 'here', 'hers', 'herself', 'him', 'himself', 'his', 'how', 'i', 'if', 'in', 'into', 'is', 'isn', "isn't", 'it', "it's", 'its', 'itself', 'just', 'll', 'm', 'ma', 'me', 'mightn', "mightn't", 'more', 'most', 'mustn', "mustn't", 'my', 'myself', 'needn', "needn't", 'no', 'nor', 'not', 'now', 'o', 'of', 'off', 'on', 'once', 'only', 'or', 'other', 'our', 'ours', 'ourselves', 'out', 'over', 'own', 're', 's', 'same', 'shan', "shan't", 'she', "she's", 'should', "should've", 'shouldn', "shouldn't", 'so', 'some', 'such', 't', 'than', 'that', "that'll", 'the', 'their', 'theirs', 'them', 'themselves', 'then', 'there', 'these', 'they', 'this', 'those', 'through', 'to', 'too', 'under', 'until', 'up', 've', 'very', 'was', 'wasn', "wasn't", 'we', 'were', 'weren', "weren't", 'what', 'when', 'where', 'which', 'while', 'who', 'whom', 'why', 'will', 'with', 'won', "won't", 'wouldn', "wouldn't", 'y', 'you', "you'd", "you'll", "you're", "you've", 'your', 'yours', 'yourself', 'yourselves']
+'''
 def removeStopwords(utterance):
     sw = set(stopwords.words('english')) #sw.union(['trouble', 'having'])
-    return ' '.join([word for word in utterance.split() if word.lower() not in sw])
+    notSW = ['my', 'a']
+    return ' '.join([word for word in utterance.split() if word.lower() not in sw or word.lower() in notSW])
 def stem(utterance):
     stemmer = PorterStemmer()
     return ' '.join([stemmer.stem(word) for word in utterance.split()])
@@ -54,7 +59,7 @@ def stem(utterance):
 #removeStopwords and removePunctuation make 75-1 and 75-2 a few pts more accurate, but 75-3 very slightly less accurate
 #so for now normalize will be removeStopwords and removePunctuation, no stemming
 def normalize(utterance):
-    return removeStopwords(removePunctuation(utterance)).lower()
+    return stem(removeStopwords(removePunctuation(utterance))).lower()
 def normalizeUtterances(utterances):
     return list(map(normalize, utterances))
 
@@ -164,9 +169,9 @@ def classify(predictions):
         #unfortunately the top prediction probability does not always match with the predict return
         #has something to do with Platt scaling https://ronie.medium.com/sklearn-svc-predict-vs-predict-proba-e594293153c1
         #takeaway is that probability in the case of mismatch is less important than predict result
-    for p in predictions[1]:
+    '''for p in predictions[1]:
         if p[1] == 'None' and p[0] > 0.11:
-            return ('None', p[0])
+            return ('None', p[0])'''
     for p in predictions[1]:
         if p[1] == predictions[0]:
             return (predictions[0], p[0])
