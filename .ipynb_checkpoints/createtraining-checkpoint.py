@@ -27,14 +27,21 @@ def createTraining(xlpath, numPerIntent=10):
         'Intent.HardWareIssues': 0,
         'None': 0
     }
+    existingUtterances = [jo['text'] for jo in json.load(open('training.json'))]
+    existingUtterances += [jo['text'] for jo in json.load(open('Batch_Tests/75-1.json'))]
+    existingUtterances += [jo['text'] for jo in json.load(open('Batch_Tests/75-2.json'))]
+    existingUtterances += [jo['text'] for jo in json.load(open('Batch_Tests/75-3.json'))]
+    existingUtterances += [jo['text'] for jo in json.load(open('Batch_Tests/110-4.json'))]
+    existingUtterances += [jo['text'] for jo in json.load(open('Batch_Tests/110-5.json'))]
+    existingUtterances += [jo['text'] for jo in json.load(open('Batch_Tests/110-6.json'))]
     def unique(utterance):
-        return True
+        return utterance not in existingUtterances
     data = []
     for d in allData:
         if len(data) == 11*numPerIntent:
             break
         intentLabel = d[1][0]
-        if intentsDict[intentLabel] < numPerIntent:
+        if intentsDict[intentLabel] < numPerIntent and unique(d[0]):
             data.append(d)
             intentsDict[intentLabel] += 1
             
@@ -94,9 +101,29 @@ def balanceCorrectedTraining():
     with open('newTraining.json','w') as newjson :
         json.dump(newjsonData, newjson, indent=4, separators=(',',': '))
         
-
-
-
+def checkBalance(jsonfile):
+    print('k')
+        
+        
+#made this function to clean the training data i made earlier (remove repeats)
+#dont anticipate needing to use this again as I updated createTraining to only add unique utterances
+def cleanTraining():
+    existingUtterances = [jo['text'] for jo in json.load(open('Batch_Tests/75-1.json'))]
+    existingUtterances += [jo['text'] for jo in json.load(open('Batch_Tests/75-2.json'))]
+    existingUtterances += [jo['text'] for jo in json.load(open('Batch_Tests/75-3.json'))]
+    existingUtterances += [jo['text'] for jo in json.load(open('Batch_Tests/110-4.json'))]
+    existingUtterances += [jo['text'] for jo in json.load(open('Batch_Tests/110-5.json'))]
+    existingUtterances += [jo['text'] for jo in json.load(open('Batch_Tests/110-6.json'))]
+    print(existingUtterances)
+    def unique(utterance):
+        return utterance not in existingUtterances
+    dirtyTraining = json.load(open('training.json'))
+    cleanTraining = []
+    for jo in dirtyTraining:
+        if unique(jo['text']):
+            cleanTraining.append(jo)
+    with open('training.json','w') as trainingjson :
+        json.dump(cleanTraining, trainingjson, indent=4, separators=(',',': '))
 
 
 
