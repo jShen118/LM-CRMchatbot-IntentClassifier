@@ -1,70 +1,5 @@
 [
     {
-        "text": "Enterprise account is locked.",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
-        "text": "Need access to ESS base/ smart view",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
-        "text": "RACF ID revoked",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
-        "text": "not able to log in to Triton",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
-        "text": "i need support with a password reset",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
-        "text": "User ID's disabled - need reactivated immediatly",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
-        "text": "Unable to access claims in LNW Claims System",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
-        "text": "Need to request access to PADES for N0161677",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
-        "text": "Avaya Agent Login issues",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
-        "text": "i am unable to access cash & debitor app on the mi portal in chrome",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
-        "text": "I need to unlock my account entered password wrong too many times",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
-        "text": "voicemail password reset",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
-        "text": "Avaya isn't logging in - recent update",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
         "text": "SLQT log in, it is saying my N# is not recognizable",
         "intent": "Intent.AccessIssues",
         "entity": []
@@ -190,67 +125,7 @@
         "entity": []
     },
     {
-        "text": "Avaya - wifi connected",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
-        "text": "istar is not responding, all grayed out",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
-        "text": "CB: am facing issues in logging ms teams",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
-        "text": "Avaya agent issue, person on other end can't hear me",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
-        "text": "headphone issues",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
-        "text": "i have issues loggin to sonar qube",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
-        "text": "Avaya 1X Agent;  What is my WFH 602 extension?",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
-        "text": "Can't hear anyone on the other end of my phone.",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
-        "text": "click 2 dial function with Avaya not working",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
-        "text": "My power went out. When it came back on, I lost audio in my headset.",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
-        "text": "For the Telephony Team -  Employee Gail Utt is receiving misdirected calls",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
         "text": "cant connect my headset, the audio coming through my computer",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
-        "text": "Triton issues",
         "intent": "Intent.CallQualityIssues",
         "entity": []
     },
@@ -291,11 +166,6 @@
     },
     {
         "text": "Avaya One-X: Poor Sound Quality",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
-        "text": "No Audio in Avaya/Istar calls",
         "intent": "Intent.CallQualityIssues",
         "entity": []
     },
@@ -377,66 +247,6 @@
     {
         "text": "can't connect heaphones on citrix and otherss can't her my voice",
         "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
-        "text": "VDI",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entity": []
-    },
-    {
-        "text": "RequestIT not loading",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entity": []
-    },
-    {
-        "text": "SAS Isn't Loading",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entity": []
-    },
-    {
-        "text": "Office apps show message regarding cached credentials.",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entity": []
-    },
-    {
-        "text": "ARI APP is Frozen",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entity": []
-    },
-    {
-        "text": "Not able to launch SAS EG on Citrix",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entity": []
-    },
-    {
-        "text": "The ribbon at the bottom of my screen isn't working properly.",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entity": []
-    },
-    {
-        "text": "InView not loading",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entity": []
-    },
-    {
-        "text": "OFFICE - Office apps display reactivate message",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entity": []
-    },
-    {
-        "text": "Documents not populating",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entity": []
-    },
-    {
-        "text": "Can't open teams",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entity": []
-    },
-    {
-        "text": "BLCC_ DMS wont open documents in chrome or explorer",
-        "intent": "Intent.FrozenLoadingIssue",
         "entity": []
     },
     {
@@ -545,11 +355,6 @@
         "entity": []
     },
     {
-        "text": "MIcrosoft teams will not open",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entity": []
-    },
-    {
         "text": "MS office documents not saving",
         "intent": "Intent.FrozenLoadingIssue",
         "entity": []
@@ -567,71 +372,6 @@
     {
         "text": "im having issues while opening outlook",
         "intent": "Intent.FrozenLoadingIssue",
-        "entity": []
-    },
-    {
-        "text": "delete uh",
-        "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
-        "text": "NEED TO DELETE UH",
-        "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
-        "text": "Navigator not working",
-        "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
-        "text": "When I Combine the Pdf it getting error pdf not support",
-        "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
-        "text": "i'm getting an error message on a renters quote i'm trying to bind",
-        "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
-        "text": "Navigator issues",
-        "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
-        "text": "navigator closing recovery reserve",
-        "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
-        "text": "delete uh",
-        "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
-        "text": "SCH PW (Policy) Status Update",
-        "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
-        "text": "policy view error",
-        "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
-        "text": "Watson - \"string index out of range:  1\" error message",
-        "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
-        "text": "CB NUALP (Quote) Guam liberator quote not pulling into NUALP",
-        "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
-        "text": "NEED TO DELETE UH",
-        "intent": "Intent.GRMIssues",
         "entity": []
     },
     {
@@ -760,56 +500,6 @@
         "entity": []
     },
     {
-        "text": "RLT iUW (Issuance) CICC-37750 Options Mark option sold crime policy number not displaying",
-        "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
-        "text": "CB Clipper (Send to Market) P1168775.2  is stuck in sent to market",
-        "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
-        "text": "TLB Midway (Account) BOR - Renewal - Paxton-Buckley-Loda CUSD 10",
-        "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
-        "text": "JLH Midway (Access) Add Production",
-        "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
-        "text": "SQL30082N failed with reason \"15\"",
-        "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
-        "text": "CB Clipper (Send to Market)  is not sending quotes to market P1172435.2 & P1172435.3",
-        "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
-        "text": "JLH NMWB (Services) Duplicate Working SSI",
-        "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
-        "text": "JLH Midway (Tasks) Reset All Lines Proposal",
-        "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
-        "text": "JLH Midway (Tasks) Reset All Lines Proposal",
-        "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
-        "text": "RLT iUW (Offer ) GL inputs won't save and can't calculate - Need to select primary account",
-        "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
         "text": "VDDP35P-A5PKFGN:  Module 'CPUID' power on failed",
         "intent": "Intent.GRSIssues",
         "entity": []
@@ -870,11 +560,6 @@
         "entity": []
     },
     {
-        "text": "RAD iUW (Calculations) AL APD Retrieval Vehicle information",
-        "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
         "text": "SCH Midway (Tasks) Reset Resolve Status",
         "intent": "Intent.GRSIssues",
         "entity": []
@@ -895,11 +580,6 @@
         "entity": []
     },
     {
-        "text": "SCH Midway (Tasks) Resolve Status Error",
-        "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
         "text": "SCH Midway (Tasks) Show Appt Status Task",
         "intent": "Intent.GRSIssues",
         "entity": []
@@ -916,11 +596,6 @@
     },
     {
         "text": "RLT iUW (Quote) GL Unable to Link Quote \"System error occurred. Please try again\"",
-        "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
-        "text": "JLH Midway (Tasks) Reset All Lines Proposal",
         "intent": "Intent.GRSIssues",
         "entity": []
     },
@@ -947,66 +622,6 @@
     {
         "text": "Letters not working in Xactimate",
         "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
-        "text": "Need to order replacement for stolen iphone.",
-        "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
-        "text": "I had to reset my phone and I need to setup my email on the phone.",
-        "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
-        "text": "TEAMS access via my iPhone",
-        "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
-        "text": "I upgraded my iphone and need a mobile iron PIN.",
-        "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
-        "text": "my cell phone will not turn on so i cant get an rsa token",
-        "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
-        "text": "MOBILE Phone Locked and DIsabled",
-        "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
-        "text": "Did not receive email for new phone MobileIron MDM Activation Communication",
-        "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
-        "text": "My work e-mail is no longer appearing on my iPhone",
-        "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
-        "text": "iPhone unlock request",
-        "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
-        "text": "Only seeing 7 emails via my cell phone",
-        "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
-        "text": "I need help accessing Navigator from my iPhone",
-        "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
-        "text": "Question why my company iPhone has not shipped after approval by manager.",
-        "intent": "Intent.MobileManagement",
         "entity": []
     },
     {
@@ -1135,57 +750,7 @@
         "entity": []
     },
     {
-        "text": "Unlock a mobile device",
-        "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
-        "text": "RSA - bad username or passcode",
-        "intent": "Intent.NetworkIssues",
-        "entity": []
-    },
-    {
-        "text": "'Bad username or passcode' errors on VPN login",
-        "intent": "Intent.NetworkIssues",
-        "entity": []
-    },
-    {
-        "text": "RSA SMS token locked.",
-        "intent": "Intent.NetworkIssues",
-        "entity": []
-    },
-    {
-        "text": "locked out of pulse",
-        "intent": "Intent.NetworkIssues",
-        "entity": []
-    },
-    {
-        "text": "i am having issues logging in to pulse.",
-        "intent": "Intent.NetworkIssues",
-        "entity": []
-    },
-    {
-        "text": "New hire needs soft token",
-        "intent": "Intent.NetworkIssues",
-        "entity": []
-    },
-    {
-        "text": "I am unable to access https://requestit.lmig.com/",
-        "intent": "Intent.NetworkIssues",
-        "entity": []
-    },
-    {
-        "text": "unable to connect to pulse secure",
-        "intent": "Intent.NetworkIssues",
-        "entity": []
-    },
-    {
         "text": "Need help getting connected to the vpn.\u00a0",
-        "intent": "Intent.NetworkIssues",
-        "entity": []
-    },
-    {
-        "text": "Cannot connect to Pulse",
         "intent": "Intent.NetworkIssues",
         "entity": []
     },
@@ -1205,11 +770,6 @@
         "entity": []
     },
     {
-        "text": "My pulse secure says account locked out contatc your network admin",
-        "intent": "Intent.NetworkIssues",
-        "entity": []
-    },
-    {
         "text": "when connecting with zscaler unable to access myconnections page",
         "intent": "Intent.NetworkIssues",
         "entity": []
@@ -1221,11 +781,6 @@
     },
     {
         "text": "Zscaler will not authenticate me",
-        "intent": "Intent.NetworkIssues",
-        "entity": []
-    },
-    {
-        "text": "Setting token on new device",
         "intent": "Intent.NetworkIssues",
         "entity": []
     },
@@ -1246,16 +801,6 @@
     },
     {
         "text": "Pulse - no connections",
-        "intent": "Intent.NetworkIssues",
-        "entity": []
-    },
-    {
-        "text": "myLiberty home page not connecting after zscaler implementation",
-        "intent": "Intent.NetworkIssues",
-        "entity": []
-    },
-    {
-        "text": "I am unable to connect to pulse secure.",
         "intent": "Intent.NetworkIssues",
         "entity": []
     },
@@ -1330,61 +875,6 @@
         "entity": []
     },
     {
-        "text": "KICKBACK -I am hoping to get my email address updated",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
-        "text": "Unable to connect to Outlook, Teams, OneNote, etc.",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
-        "text": "Need PhysDam Mailbox access",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
-        "text": "Email does not save in LF email",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
-        "text": "Distribution list owner update",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
-        "text": "Outlook offline",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
-        "text": "Outlook cannot expand folder Internal Re Claims",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
-        "text": "Microsoft Outlook: Mailbox size increase request",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
-        "text": "Access to generic mailbox",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
-        "text": "EZMAIL enabled add in",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
-        "text": "AGA Smart (Broker) Agent Bulk Email update 013176",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
         "text": "Outlook will not connect",
         "intent": "Intent.OutlookIssues",
         "entity": []
@@ -1455,11 +945,6 @@
         "entity": []
     },
     {
-        "text": "increase outlook mailbox size",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
         "text": "Not receiving email from the following DL SM&D Leadership <HSSLeadership@",
         "intent": "Intent.OutlookIssues",
         "entity": []
@@ -1471,11 +956,6 @@
     },
     {
         "text": "Unable to email from LMDocuments:",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
-        "text": "Need to add a user to a shared mailbox",
         "intent": "Intent.OutlookIssues",
         "entity": []
     },
@@ -1555,26 +1035,6 @@
         "entity": []
     },
     {
-        "text": "CB iUW (Offer) Proposal not generating",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
-        "text": "RLT iUW (Account) Opportunity tab SLEO not rating but attached in options",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
-        "text": "RAD Compass (Rating) Rating Failed A7288040.2 MA Class 7914 2 vehls",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
-        "text": "rating concerns",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
         "text": "GRMCO-9730 ABT-298-512447-40-Unable to substitute and add vehicle receiving error",
         "intent": "Intent.RatingIssues",
         "entity": []
@@ -1595,32 +1055,12 @@
         "entity": []
     },
     {
-        "text": "RLT iUW (Rating) crime quote error",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
         "text": "ABT-298-199342-70-Unable to substitute vehicle receiving error",
         "intent": "Intent.RatingIssues",
         "entity": []
     },
     {
         "text": "RLT UmPIRE (Account) Trying to create an account in Umpire receiving an error",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
-        "text": "Unable to substitute vehicle in renewal due to 400 error",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
-        "text": "quick links not generating",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
-        "text": "ABT29837425175-Unable to substitute vehicle receiving error",
         "intent": "Intent.RatingIssues",
         "entity": []
     },
@@ -1645,22 +1085,7 @@
         "entity": []
     },
     {
-        "text": "rerating a policy and need correct first year",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
         "text": "LJ1-288-023639-40-Unable to delete vehicle and operator receiving error",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
-        "text": "Unable to substitute vehicle in liability policy due to Assertion Error",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
-        "text": "Unable to substitute vehicle in renewal due to 400 error",
         "intent": "Intent.RatingIssues",
         "entity": []
     },
@@ -1680,22 +1105,12 @@
         "entity": []
     },
     {
-        "text": "RLT iUW (Forms) Signed Docs error generating",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
         "text": "USCMPROD-713 Got validation error while rating the premium in change policy screen",
         "intent": "Intent.RatingIssues",
         "entity": []
     },
     {
         "text": "CB iUW (Quote) MRV not generating drivers",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
-        "text": "Unable to substitute vehicle in renewal due to 400 error",
         "intent": "Intent.RatingIssues",
         "entity": []
     },
@@ -1710,61 +1125,6 @@
         "entity": []
     },
     {
-        "text": "I received a replacement laptop and I have the old version of Avaya.",
-        "intent": "Intent.HardWareIssues",
-        "entity": []
-    },
-    {
-        "text": "PRINTERS - local sales office printer not recognizing badges",
-        "intent": "Intent.HardWareIssues",
-        "entity": []
-    },
-    {
-        "text": "Resolution is incorrect on third monitor.",
-        "intent": "Intent.HardWareIssues",
-        "entity": []
-    },
-    {
-        "text": "Second monitor is not displaying image",
-        "intent": "Intent.HardWareIssues",
-        "entity": []
-    },
-    {
-        "text": "Dual Monitors not functioning on docking station.",
-        "intent": "Intent.HardWareIssues",
-        "entity": []
-    },
-    {
-        "text": "I am having problems connecting my home Epson printer to this laptop",
-        "intent": "Intent.HardWareIssues",
-        "entity": []
-    },
-    {
-        "text": "change screen brightness",
-        "intent": "Intent.HardWareIssues",
-        "entity": []
-    },
-    {
-        "text": "Docking station for my mac has stopped working",
-        "intent": "Intent.HardWareIssues",
-        "entity": []
-    },
-    {
-        "text": "Docking station not working with peripherals",
-        "intent": "Intent.HardWareIssues",
-        "entity": []
-    },
-    {
-        "text": "webcam not funtioning",
-        "intent": "Intent.HardWareIssues",
-        "entity": []
-    },
-    {
-        "text": "Computer performance",
-        "intent": "Intent.HardWareIssues",
-        "entity": []
-    },
-    {
         "text": "Devises plugged into laptop keep disconnecting and re-connecting",
         "intent": "Intent.HardWareIssues",
         "entity": []
@@ -1776,11 +1136,6 @@
     },
     {
         "text": "New laptop setup",
-        "intent": "Intent.HardWareIssues",
-        "entity": []
-    },
-    {
-        "text": "Video display on the monitor\u00a0",
         "intent": "Intent.HardWareIssues",
         "entity": []
     },
@@ -1826,11 +1181,6 @@
     },
     {
         "text": "OOO 7/15 Robert 84G5 battery on my laptop has expanded",
-        "intent": "Intent.HardWareIssues",
-        "entity": []
-    },
-    {
-        "text": "Can you approve a software download for my new mouse and keyboard?",
         "intent": "Intent.HardWareIssues",
         "entity": []
     },

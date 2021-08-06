@@ -102,7 +102,33 @@ def balanceCorrectedTraining():
         json.dump(newjsonData, newjson, indent=4, separators=(',',': '))
         
 def checkBalance(jsonfile):
-    print('k')
+    jsonData = json.load(open(jsonfile))
+    access = [jo for jo in jsonData if jo['intent'] == 'Intent.AccessIssues']
+    callquality = [jo for jo in jsonData if jo['intent'] == 'Intent.CallQualityIssues']
+    frozenloading = [jo for jo in jsonData if jo['intent'] == 'Intent.FrozenLoadingIssue']
+    grm = [jo for jo in jsonData if jo['intent'] == 'Intent.GRMIssues']
+    grs = [jo for jo in jsonData if jo['intent'] == 'Intent.GRSIssues']
+    mobilemanagement = [jo for jo in jsonData if jo['intent'] == 'Intent.MobileManagement']
+    network = [jo for jo in jsonData if jo['intent'] == 'Intent.NetworkIssues']
+    outlook = [jo for jo in jsonData if jo['intent'] == 'Intent.OutlookIssues']
+    rating = [jo for jo in jsonData if jo['intent'] == 'Intent.RatingIssues']
+    hardware = [jo for jo in jsonData if jo['intent'] == 'Intent.HardWareIssues']
+    none = [jo for jo in jsonData if jo['intent'] == 'None']
+    toPrint = f'Balance of {jsonfile}:\n'
+    toPrint += f'Access: {len(access)}\n'
+    toPrint += f'CallQuality: {len(callquality)}\n'
+    toPrint += f'FrozenLoading: {len(frozenloading)}\n'
+    toPrint += f'GRM: {len(grm)}\n'
+    toPrint += f'GRS: {len(grs)}\n'
+    toPrint += f'MobileManagement: {len(mobilemanagement)}\n'
+    toPrint += f'Network: {len(network)}\n'
+    toPrint += f'Outlook: {len(outlook)}\n'
+    toPrint += f'Rating: {len(rating)}\n'
+    toPrint += f'HardWare: {len(hardware)}\n'
+    toPrint += f'None: {len(none)}\n\n'
+    print(toPrint)
+    
+    
         
         
 #made this function to clean the training data i made earlier (remove repeats)

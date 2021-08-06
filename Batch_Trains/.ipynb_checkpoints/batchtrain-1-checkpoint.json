@@ -1,25 +1,5 @@
 [
     {
-        "text": "W2k lockout / Unable to sign into Windows",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
-        "text": "I can't access CSW",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
-        "text": "- i need help with sending large files to outside counsel. is there a sharefile where i ca...",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
-        "text": "EDI Login Manager error 21-126: Session timed out",
-        "intent": "Intent.AccessIssues",
-        "entity": []
-    },
-    {
         "text": "i tried logging in and it's not working but the station id matches.\u00a0",
         "intent": "Intent.AccessIssues",
         "entity": []
@@ -250,22 +230,12 @@
         "entity": []
     },
     {
-        "text": "having issues with avaya",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
         "text": "Having an issue starting Triton.",
         "intent": "Intent.CallQualityIssues",
         "entity": []
     },
     {
         "text": "Consistent echoing during phone calls.",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
-        "text": ".  i am able to connect to avaya and istar, but am not receiving calls",
         "intent": "Intent.CallQualityIssues",
         "entity": []
     },
@@ -281,11 +251,6 @@
     },
     {
         "text": "AVAYA One-X - Audio Issues",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
-        "text": "avaya issues",
         "intent": "Intent.CallQualityIssues",
         "entity": []
     },
@@ -360,11 +325,6 @@
         "entity": []
     },
     {
-        "text": "why can i not make an external phone call",
-        "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
         "text": "mp3 files cannot hear sound",
         "intent": "Intent.CallQualityIssues",
         "entity": []
@@ -417,21 +377,6 @@
     {
         "text": "NorthStar error.  When logged in it goes to Aux 0 and it is greyed out",
         "intent": "Intent.CallQualityIssues",
-        "entity": []
-    },
-    {
-        "text": "Microsoft outlook won't open",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entity": []
-    },
-    {
-        "text": "resq not opening on vdi",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entity": []
-    },
-    {
-        "text": "Microsoft Excel is crashing",
-        "intent": "Intent.FrozenLoadingIssue",
         "entity": []
     },
     {
@@ -506,11 +451,6 @@
     },
     {
         "text": "Module in MCDC freezes",
-        "intent": "Intent.FrozenLoadingIssue",
-        "entity": []
-    },
-    {
-        "text": "InView will not load",
         "intent": "Intent.FrozenLoadingIssue",
         "entity": []
     },
@@ -670,16 +610,6 @@
         "entity": []
     },
     {
-        "text": "delete uh",
-        "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
-        "text": "In-Process Transaction",
-        "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
         "text": "NAVIGATOR not connecting",
         "intent": "Intent.GRMIssues",
         "entity": []
@@ -710,11 +640,6 @@
         "entity": []
     },
     {
-        "text": "In-Process Transaction",
-        "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
         "text": "GRMCO-15117 [08/02] sent email - Policy Not found in CSW- AOS26840636340",
         "intent": "Intent.GRMIssues",
         "entity": []
@@ -731,11 +656,6 @@
     },
     {
         "text": "CB Clipper (Documents) TB2-Z91-473072-031 policy deletion from Policy View OnDemand",
-        "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
-        "text": "In-Process Transaction",
         "intent": "Intent.GRMIssues",
         "entity": []
     },
@@ -837,26 +757,6 @@
     {
         "text": "CB PUTT (Processing Error) upload a PADES to PUTT and keep getting an error message- .csv file issue",
         "intent": "Intent.GRMIssues",
-        "entity": []
-    },
-    {
-        "text": "Multiple users: wallboards down/not updating",
-        "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
-        "text": "RAD Midway (Tasks) Reset Resolve Status",
-        "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
-        "text": "CB Clipper (Performance Issue) having trouble opening Clipper - AWS connection",
-        "intent": "Intent.GRSIssues",
-        "entity": []
-    },
-    {
-        "text": "SCH Midway (Tasks) Resolve Status Error",
-        "intent": "Intent.GRSIssues",
         "entity": []
     },
     {
@@ -1050,21 +950,6 @@
         "entity": []
     },
     {
-        "text": "Unlock a mobile device",
-        "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
-        "text": "My manager needs help backing up his new iPhone to his laptop to upgrade",
-        "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
-        "text": "Logging into Teams on my iPhone",
-        "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
         "text": "need help in setting up new mobile number for authentication",
         "intent": "Intent.MobileManagement",
         "entity": []
@@ -1141,11 +1026,6 @@
     },
     {
         "text": "Unlock a mobile device",
-        "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
-        "text": "Issues downloading outlook as part of the BYOD program on my apple device",
         "intent": "Intent.MobileManagement",
         "entity": []
     },
@@ -1257,26 +1137,6 @@
     {
         "text": "pingid on a account don't have access to original device",
         "intent": "Intent.MobileManagement",
-        "entity": []
-    },
-    {
-        "text": "Setting token on new device",
-        "intent": "Intent.NetworkIssues",
-        "entity": []
-    },
-    {
-        "text": "I am trying to import my RSA token but I cannot find the activation code",
-        "intent": "Intent.NetworkIssues",
-        "entity": []
-    },
-    {
-        "text": "Issues receiving an on demand token",
-        "intent": "Intent.NetworkIssues",
-        "entity": []
-    },
-    {
-        "text": "i can't log into pulse secure,\u00a0",
-        "intent": "Intent.NetworkIssues",
         "entity": []
     },
     {
@@ -1470,26 +1330,6 @@
         "entity": []
     },
     {
-        "text": "access to mailbox, zone2reports@libertymutual.com, cannot display folder.",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
-        "text": "My email is not coming through on my mobile device.",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
-        "text": "Having issues with my DL list Prop_WATeamBrady@libertymutual.com",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
-        "text": "help with potential spam email",
-        "intent": "Intent.OutlookIssues",
-        "entity": []
-    },
-    {
         "text": "Need an attachment unblocked from an Outlook email",
         "intent": "Intent.OutlookIssues",
         "entity": []
@@ -1680,11 +1520,6 @@
         "entity": []
     },
     {
-        "text": "GRMCO-14632 ABT29145540470-Unable to substitute vehicle receiving error",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
         "text": "rating issue",
         "intent": "Intent.RatingIssues",
         "entity": []
@@ -1696,11 +1531,6 @@
     },
     {
         "text": "AOV24354268475-Unable to remove vehicle receiving error",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
-        "text": "Unable to substitute vehicle in liability policy due to Assertion Error",
         "intent": "Intent.RatingIssues",
         "entity": []
     },
@@ -1790,11 +1620,6 @@
         "entity": []
     },
     {
-        "text": "rating concerns",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
         "text": "Unable to substitute vehicle in renewal due to 400 error",
         "intent": "Intent.RatingIssues",
         "entity": []
@@ -1865,11 +1690,6 @@
         "entity": []
     },
     {
-        "text": "Receiving an error as address_city is required.unable to rerate the policy",
-        "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
         "text": "WA Credit Ban AO2-268-019368-70-Unable to substitute vehicle receiving error",
         "intent": "Intent.RatingIssues",
         "entity": []
@@ -1887,26 +1707,6 @@
     {
         "text": "RLT iUW (Account) Opportunity tab SLEO not rating but attached in options",
         "intent": "Intent.RatingIssues",
-        "entity": []
-    },
-    {
-        "text": "2nd monitor connection to a Dell Thunderbolt dock",
-        "intent": "Intent.HardWareIssues",
-        "entity": []
-    },
-    {
-        "text": "HARDWARE Dual monitors are not configured.",
-        "intent": "Intent.HardWareIssues",
-        "entity": []
-    },
-    {
-        "text": "OOO 7/19 - PRINTER print job does not go through",
-        "intent": "Intent.HardWareIssues",
-        "entity": []
-    },
-    {
-        "text": "Adding Fairfield centralized printer",
-        "intent": "Intent.HardWareIssues",
         "entity": []
     },
     {
