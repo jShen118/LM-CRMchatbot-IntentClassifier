@@ -10,7 +10,7 @@ https://app.powerbi.com/groups/me/reports/58c36995-df6c-4d31-a5e2-ebd4c77c2290/R
 '''
 def createTraining(xlpath, numPerIntent=10):
     sheet = pandas.read_excel(xlpath)
-    utterances = sheet['Unnamed: 5'].dropna().values.tolist()[1:]
+    utterances = sheet['Unnamed: 3'].dropna().values.tolist()[1:]
     labels = ic.classifyMultiple(ic.SVMpredictMultiple(utterances))
     allData = list(zip(utterances, labels))
     random.shuffle(allData)
@@ -91,9 +91,10 @@ def balanceCorrectedTraining():
     none = [jo for jo in jsonData if jo['intent'] == 'None']
     intentGroups = [access,callquality,frozenloading,grm,grs,mobilemanagement,network,outlook,rating,hardware,none]
     shortestLength = len(access)
-    for ig in intentGroups[0:-1]:
+    for ig in intentGroups[0:8] + hardware:
         if len(ig) < shortestLength:
             shortestLength = len(ig)
+            print(shortestLength, ig)
     newjsonData = []
     for ig in intentGroups:
         for lu in ig[len(ig)-shortestLength:len(ig)]:

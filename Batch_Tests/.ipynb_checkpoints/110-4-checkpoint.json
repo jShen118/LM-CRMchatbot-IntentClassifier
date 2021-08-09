@@ -415,7 +415,7 @@
         "entities": []
     },
     {
-        "text": "RightFax setup. I'm a new hire.",
+        "text": "RightFax setup.  I'm a new hire.",
         "intent": "Intent.OutlookIssues",
         "entities": []
     },

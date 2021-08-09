@@ -71,10 +71,8 @@ def pushtrainingjson():
         existingData = json.load(trainingjson)
     with open('newTraining.json') as newtrainingjson:
         newData = json.load(newtrainingjson)
-    for d in newData:
-        existingData.append(d)
     with open('training.json','w') as trainingjson :
-        json.dump(existingData, trainingjson, indent=4, separators=(',',': '))
+        json.dump(existingData + newData, trainingjson, indent=4, separators=(',',': '))
     
 '''
 printUtterances(AccessUtterances, 'Intent.AccessIssues')

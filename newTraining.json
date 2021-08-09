@@ -1,0 +1,2202 @@
+[
+    {
+        "text": "Transferring access of a former employee's email",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "Issues with links",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "Avaya/Istar not letting me log in.",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "CBS UserID revoked",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "I am trying to access CCO. It approved today.",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "I am not able to unlock  my account using Enterprise password.",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "says \"user id/password required\"",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "how do i provide an employee with access to a document on Teams?",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "How do I set up a new hire of mine access to Slack?",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "need help with freelancer login",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "Cannot log into Zephyr Passport. I am getting a blank screen.",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "Unable to access one of my VDI machine - \"VDE-Win10-KDC-A\"",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "need Authorized Temporary Access to Production (ATAP) or Emergency Access",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "Smart Inquiry",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "Need my station id registered in order to login to Avaya and iStar.",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "JIRA Service",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "sharefile support",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "I am trying to log into bloomberg",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "excel is not letting me login to upload files to my OneDrive",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "RequestIt won't open",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "Cannot login to avaya",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "Need to reset my Genius password for NYALIF",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "referenceconnect access",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "CVO ID and passphrase is revoked",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "Unable to login in VDI",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "Would like to know whether non-human id has access to remedy tool?",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "I am getting an error message when trying to log into Triton Softphone",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "locked",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "Can't access myconnections, compworkq",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "Request IT form error",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "I have to reset my RACF-ID but unable to proceed on this.pls get pwd",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "Need to reset TSO ID on SAFECO Mainframe",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "unable to open offer",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "RCS User access revoked",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "system will not allow my direct report to login",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "locked RACF ID for 096",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "i\"m having a little trouble with my policy servicing tool",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "I am having trouble logging into ISO claimsearch",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "I'm unable to login to LIUTEST for genius with my new login details",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "Unable to log into Avaya Agent",
+        "intent": "Intent.AccessIssues",
+        "entity": []
+    },
+    {
+        "text": "my headset is not working",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "Avaya, Teams and extension input",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "getting direct calls that should be going somewhere else.",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "Audio issues with headset",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "7/11 11:30a triton interval missing in IEX workforce management",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "Cannot access team calls in Nice\u00a0",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "i need help connecting my wireless headset",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "istar not launvhing",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": ", i need help logign into avaya",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "Avaya and Istar are still not communicating with one another",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "my avaya is not working",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "teams phone cant make external calls",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "setting up avaya agent",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "I am unable to make calls on Triton\u00a0",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "Teams audio not working",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "i am having issues with my avaya phone.",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "Headset issues",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "phone keeps muting by itself without me pushing the mute button\u00a0",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "My headset volume is up to 100",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "Having Audio issues",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "I need traing guide or manual for my avaya phone",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "Calls through Teams are not connecting.",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "Audio is not working in Teams meetings",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "Can't hear anything when using my headset\u00a0",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "audio choppy on callers end",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "istar communication error",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "issues with headset\u00a0",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "New headset, unable to get microphone to work",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "Dropped warm xfer calls",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "MS team issues",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "Avaya voicemail",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "Istar not connecting",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "\u00a0I need help with Avaya Agent App",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "MS Teams translation feature and LM background",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "My headset is not working on my laptop",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "Agent stuck in Northstar; unable to clock out",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "I have lost the ability to make calls and use my camera in teams.",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "Unable to hear caller on my phone line",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "ms teams webcam not working -no audio or visual",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "I can not get my headset to work.",
+        "intent": "Intent.CallQualityIssues",
+        "entity": []
+    },
+    {
+        "text": "Get started app not running",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "Unable to power on VDE",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "Recently protected a folder, now cant open pdfs in that folder.",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "Cannot launch choice button can you assist?",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "My LM\\VDDP35X-8YY7WF1 VDE is out of compliance",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "SAS enterprise,  get a black screen.",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "Phoenix \"cant reah this page\" on browser have cleared cookies",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "cant open midway page",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "citrix running slow",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "My team member is unable to launch citrix, desktop error",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "I tried opening documents in exprs and get blank screen",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "my VDE (salesforce devenet) is just loading and not openin since yesterday",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "my CVO isn't working",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "I cannot open Teams app",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "unable to open Microsoft Teams.",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "legal files is slow, opening word documents take forever and time out",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "my autofilled information on Avaya is no longer populating when i open it",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "i need  microsoft teams",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "Need to delete rec File Info from Legal Files. Says rec no longer available",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "My Microsoft Teams Application is not opening",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "NICE Engage Application download error",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "csw not launching",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "cant connect to onedrive",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "Chrome behaves funny.",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "Microsoft Teams will not start",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "if i click to open word docs on shared drive the documents never open",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "my vdi has been working very slow. it takes 5 minutes to load anything",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "microsoft word and excel error that is preventing it from working correcty",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "Microsoft Teams and Outlook are not starting correctly.",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "How do I set up voicemail in microsoft teams?",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "Opening surveillance video",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "SAS Citrix launch issue",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "Updating phone number in my Microsoft teams account.",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "Recovery of a word document",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "Teams won't launch.",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "New ARMS link will not open",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "I am unable to access Microsoft teams",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "app running slow",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "I cannot open files in excel",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "frozen call . rebooted system mnow i have a channel operation error",
+        "intent": "Intent.FrozenLoadingIssue",
+        "entity": []
+    },
+    {
+        "text": "SU In-Process Transaction",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "unable to save document from EDM",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "DRC is having CSW issues when quoting or mvr/clue various issues",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "GETTING ASSERTION ERROR WHEN CANCELLING POLICIES",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "I want to cancel the auto policy as of 6/15/2021",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "Can't open CSW quotes",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "each time I open a document , it gives me an error",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "Is csw down? I cannot pull any policy info",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "delete transaction",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "getting error message when I try to open a PDF.\u00a0",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "cannot able to reinstate the policy",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "outlook app on mobile is giving an \"error\"",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "Umbrella  renewal LOB did not populate on resolve status",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "I was working on cvo case but unable to processing long file print.",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "i cant quote i keep getting an error screen\u00a0",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "Reinstatement option disabled in new policy#",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "rental reservation is hung up in Navigator",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "I keep getting this error when I am trying to quote",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "PIP cost not showing in eService",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-291-744698-40-Unable to make coverage changes receiving error",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "I am unable to process the endorsement",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "ISO error in Navigator",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "unable to order MVR report in CF auto quote",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "Unable to delete vehicle in renewal due to 400 error",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "I am unable to select a 1st Named Insured",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "Brittany Schneider is  \"unassigned\" in Navigator after dept code change",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "assigment failed  in navigator that links to Xactanalysis",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "Unable to delete UH",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "I am a CSC trainer and  are getting unauthorized error in Orion training",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "EZ DOCS - unable to send letter in Navigator",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "Unable to void the transaction.. policy goes in SU",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "Getting EMC Error Code 5.",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "Unable to change address receiving assertion error",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "Unable to change coverage in renewal due to 400 Error Message",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "I unable to put comment",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "trton error",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "word will not let me send doc",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "effective date on online quotes isnt working\u00a0",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "NC Noncompliance Report - SMART Inquiry",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "issue with a training module",
+        "intent": "Intent.GRMIssues",
+        "entity": []
+    },
+    {
+        "text": "void stuck",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "ISO Error message",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "ECM",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "Needing the 'Resolve Status' refreshed in Midway for a submission.\u00a0",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "iunderwrite for customer 529368 not showing correct prem auto",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "Compass send to market failed",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "- needing help getting access to a site",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "Clipper & iUW issues",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "Prospect 708763 iunderwrite proposal not picking up gl mp",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "Loss Management tab in iUW is blank",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "No active task in midway for a submission.\u00a0",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "incorrect istart pw",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "Error message in UTP",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "when in Forms comparison I get msg System error occurred",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "Xactimate closing every time I go to sketch",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "compliance iunderwrite",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "ECM won't run",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "Loss Management tab under opportunity in iUnderwrite is BLANK",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "CVO not working",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "ECM not working",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "resolve status task not generating in midway.  it's been over 1 hr",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "CVO application is not working, it is stucked at 'please wait'",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "Received several emails for several accounts with Loss Prevention documents",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "retrigger for Compass BGI",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "iuw proposal will not generate",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "ECM Error",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "The midsize proposal fails to generate in i-UW",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "eservice admin tool not working when trying to register for eservice",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "When downloading Oracle it has failed several times",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "iunderwrite help",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "Crime quote error message",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "Proposal does not generate with correct premium",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "resolve status task",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "Republish Policy will not complete in property workstation",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "I need a Producer number in Midway amended - this never got changed",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "Missing a button in Midway.",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "Document Management System shows an error message and will not open",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "Remove individuals from LMIFinancialReporting@LMI.com",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": ". i need snagit reinstalled on my system",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "TM1 Excel losing features",
+        "intent": "Intent.GRSIssues",
+        "entity": []
+    },
+    {
+        "text": "i'm wondering if you can help me. new to the company and i've been asked to set up xactimate but i currently cannot add it to my cart",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "I have no devices assigned to me",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "need the registration pin to activate new Iphone",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "I am having issues reinstalling BYOMD. It tells me my credentials failed",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "! i need help activating my new mifi card",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "view my phone number",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "New iPhone & BYOD software",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "turning cell phone service back and and getting my cell phone setup",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "I need to authenticate Ping ID on a new phone",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "Looking for the Registration PIN",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "iPhone not loading all emails",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "Splunk Ping Id linked to old mobile and need to switch to my new mobile now",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "My SWM is not working",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "having trouble setting up outlook on my Liberty Mutual Phone",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "I'm setting up mobileiron on my mobile after the device upgrade.",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "locked out of my iphone",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "i cant sign into Pulse. It wont send me the Next Code to my phone",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "I purchased an upgraded phone over 30 days ago",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "Can't login to email on company phone",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "i cannot sign into teams on iphone -",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "I need help with setting a greeting on voicemail",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "My cell phone is not accepting my password and is locked",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "Need to reset my PING  authentication to a new device",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "I need help editing my hotkeys.ahk",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "Need help setting up new BYOMD device",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "Not receiving the Secondary Token Code via text message on my phone.\u00a0",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "i am having issues with my phone again.....",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "I have restarted my computer and the old Triton phone is still not working\u00a0",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "My Rod Program is not working",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "My replacement iPhone - recieved this morning -does not have cell service.",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "I need a new PIN for MobileIron for my company phone",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "Bring your own device. Software not downloading to iPhone.",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "Receiving messages on iPhone stating I have a Virus",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "Trying to reset my company iPhone password (forgot).",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "MobileIron MDM Activation Communication PIN needed",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "My ROD is not working.",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "cell phone set up",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "Triton phone is not working - says my phone number is not a working number.",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "need to reset splunk as my phone broke and I can transfer my Ping ID",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "please reset my cell phone password",
+        "intent": "Intent.MobileManagement",
+        "entity": []
+    },
+    {
+        "text": "Pulse is listing no connections so I cannot get into certain sites.",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Lumen is having severe connection issues",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "the mylegalrerral seems to be down. can you assist?\u00a0",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "VPN login error",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "I am not able to turn zscaler off on my VDE anymore",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "RSA token password",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Unable to connect to / open \"myconnections\" site",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "unable to log into zscaler",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Issue connecting to One drive",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Issues with zscaler",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "want to replace rsa token from ondemand(email) to android.",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Help connecting to myliberty",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Avaya wont log in and I star is having a connection issue.",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "can not connect to servicepower",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "network connection",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "My token issue",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "I am not able to log in to Pulse Secure",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Received a message about an asset not connecting to network",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "can't connect to VPN on mobile phone",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "myToken not responding. Cannot access token for VPN",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Cannot connect to VPN/Pulse",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "unable to connect to pulse secure",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Cannot hardwire / connect through ethernet",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Help signing in to Pulse Secure",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "I'm unable to find RSA",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Cannot log in to pulse",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "My VPN is saying my account is locked",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "I cannot log in to pulse",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": ". when trying to log into the vpn it will not send me the second token number to log in and then after a few minutes it will tell me the connection failed. i restarted my whole system and my internet",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "need help with token for new device",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "My RSA Token disappeared from my desktop",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "There is no field to enter my RSA pin",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "unable to connect to national workbench and property warehouse",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Pulse Account Locked out",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Unable to connect",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Accoutn Locked for Pulse Secure",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Need to turn off Zscaler on VDE. Disable password is necessary",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Not able to log into VPN",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "Unable to connect to Liberty Home page",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "new employee, need help setting up RSA token",
+        "intent": "Intent.NetworkIssues",
+        "entity": []
+    },
+    {
+        "text": "OUTLOOK showing \"tying to connect message again & again\"",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "please have a new email that reflects Brydon.Monchery@libertymutual for me.",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "JavaScript Error in Outlook and Teams",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "My outlook is storing all my emails and not sending them",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "i need assistance adding ez mail to my outlook.",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "My agent Angela Piano is unable to receive or send emails.",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "Can I retrieve emails that were auto-deleted from Outlook because the retention period timeframe ran out?",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "Meetings in Outlook will not open in Teams",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "I am needing to install EZ mail or EZ message on my outlook",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "Outlook for EZ Mail 2.1/ a printer",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "I need to recall an e-mail that I sent.",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "My fax2mail is not sending faxes",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "Can you add a user to a generic inbox?",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "Links in outlook emails sending error message",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "Changed my last name. Need to update IT to change email address with LM",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "Can't add user to XMatters",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "I am not receiving email blasts that are being sent out to everyone",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "I Phone wont sync to outlook email or calander",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "How can I get my outlook calendar to appear in Teams?",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "helmsman email account",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "Restore emails from 4/1/21 and 4/2/21",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "Outlook product deactivated",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "Need to change phone number that appears in Outlook Address Book",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "I am missing options in  submit to navigator / ez mail.",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "\"this item has not been shared with you\" when trying to use ez mail",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "I need to add Teams meeting to outlook.",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "If I may request assistance in activating generic mail box in outlook.",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "Issues with my calendar and e-mail addresses.",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "i lost outlook",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "I need to update members of a special distribution list; owner is FTO.",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "I cannot mail any EZDocs",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "my outlook is diable",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": ", i needed hlp with getting permission to send from lm docs email",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "Need to have myself remove from a distribution list \"whodat\"",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "unable to join meeting thorugh teams",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "Spammed email received what do I need to do?",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "not able to configure one note in my outlook",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "unable to send an attachment via email",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "EZMail: Error: 'Sorry, this item hasn't been shared with you.'",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "Outlook and Teams randomly signing me out and giving message that I do not",
+        "intent": "Intent.OutlookIssues",
+        "entity": []
+    },
+    {
+        "text": "Unable to substitute vehicle in renewal due to error code  400 error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-298-370185-40-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT29145048170-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "AOS-248-117021-40-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "iUW Composite Rate Change",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "I'm having systems issues - EPIC - receiving error messages and crashing\u00a0",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "The Liberty Surety Rate page has been down for three days.",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-298-696285-40-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-291-445659-70-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "LJ1-258-033582-40-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "AB5-258-829936-40-Unable to remove MPD receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "Draft Generation Error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-291-324372-70-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "Unable to rate sold policy in Compass",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-298-366641-75-Unable to substitute vehicle receiving error code",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-298-697748-40-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "Unable to add vehicle in renewal due to 400 Error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "AB5-251-929606-40-Unable to remove MPD(LJ) in auto. Receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "I need lever two help desk for a rating error\u00a0",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-291-438700-70-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "LJ1-212-001560-30-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-298-199915-70-unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-298-324281-70-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-298-505719-40-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "Unable to substitute vehicle in renewal  due to 400 error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "AO2-268-019368-70-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "Error: Brush Zone is a required field. (AH0063)",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-291-456879-70-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-298-327646-70-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "Unbale to substitute vehicle in renewal due to 400 error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT29870210140-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-298-693991-40-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-291-699068-40-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-291-743825-40-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-298-438673-75-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "ABT-298-369427-40-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "LJ1-281-029084-40-Unable to substitute vehicle receiving error(PN)",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "Unbale to change coverage in renewal due to 400 error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "AO2-268-611848-70-Unable to substitute vehicle receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "AB5-258-358401-40-Unbale to remove MPD. Receiving error",
+        "intent": "Intent.RatingIssues",
+        "entity": []
+    },
+    {
+        "text": "my extended monitor is not connected anymore",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "battery in laptop doesn't last",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "battery swollen and detached mouse pad not working",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "my computer re-installed the old version of Avaya",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "Docking station for my mac has stopped working",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "My webcam is not working",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "zscaler new laptop setup",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "help with equipment dock station correct one",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "Can't install NUALP on new laptop",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "Dont have avaya on my computer and need it",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "laptop battery no longer charging, immediately shuts off disconnected power",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "I can't get my dual monitors to wake",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "My wifi connection on my work laptop has been unstable",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "laptop screen appears to be broken",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "new laptop",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "I just got a new laptop, but my MyDouments did not get copied over",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "trying to hookup my printer",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "Asset review - I have 2 laptops showing under me that aren't mine",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "Laptop showing \"Smart hard drive imminent failure\" upon start up",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "Issue with USB port on computer",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "Backup laptop",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "my computer  seems to have uninstalled avaya",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "Wifi keeps turning off on computer",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "External monitors are not detected after computer \"wakes' up.",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "My laptop is not holding a charge.",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "My computer speed is dragging and I am unable to determine the cause.",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "Laptop will not boot up",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "printer set up",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "overall delay with computer",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "mouse won't work over dual monitor",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "My computer is starting to separate under the mousepad.",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "computer crashing",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "Laptop case cracking, due to assumed battery swelling",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "My laptop shell is splitting",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "need help with dual or triple monitors",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "My computer is swelling and coming apart.",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "wifi drops when laptop in docking station",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "I need to connect my personal printer to my LM  laptop",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "need help setting up sas",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "Setting up replacement computer.",
+        "intent": "Intent.HardWareIssues",
+        "entity": []
+    },
+    {
+        "text": "How do I run updates on my computer",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "Good Morning, I am trying to install a new printer and I am blocked. Can we downloap on the HP pleas? Thank you",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "i need a help with downloading documents",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "New Hire is not setup correctly in Navigator",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "need owner details for the D L - CI_SMO_FD_FR_Offshore@LibertyMutual.com>",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "Counselink issue",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "Do you work with Oryx? The planning system",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "agent is back from LOA but theyre not getting any surveys",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "I cant add Win 10 Update into my cart in LAP.  I tried in Chrome & Internet",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "PST is down",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "Need help getting IWE report to open in Excel",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "how do I put Xactimate on my new computer",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "colabrio",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "I need to be added as a Remedy change coordinator for group IT IM",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "INC000010418906",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "i am trying to install lm standard calendar weeks 1.1 but get an error",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "BROWSERS - Internet explorer browser not having save As window popup",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "I am unable to make edits to our FTO calendar",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "application installation is in pending state",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "Need combine Submit Group 878667 with 877798",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "Disposal of Broken Out of date equipment, US based",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "site can't be reached",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "Good Morning I cannot get into Istar",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "i'm having issues with my sas enterprise guide software",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "How do I view my annual performance reviews?",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "i need help with mcdc training and adobe flash player.",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "hello",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "Change name from YERANDY MINAYA to Yerandy Minaya?",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "ms teams not working and system hanging",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "INC000010306542",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "I'm having issues using my EZMail 2.1 it's not working right now and shows add in error msg",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "inc000010199307 there is an open ticket i need to be added to",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "installing slack",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "New IT Ticket",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "Teams is not working",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "Error saying that the VDE is unavailable due to planned maintenance.",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "i need some assitance",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "I have an agent with an apostrophe in his name",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "csw phone  number is incorrect",
+        "intent": "None",
+        "entity": []
+    },
+    {
+        "text": "need help on umpire",
+        "intent": "None",
+        "entity": []
+    }
+]

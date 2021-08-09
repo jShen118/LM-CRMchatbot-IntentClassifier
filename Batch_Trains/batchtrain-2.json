@@ -36,7 +36,7 @@
     },
     {
         "text": "Power BI account",
-        "intent": "Intent.AccessIssues",
+        "intent": "Intent.None",
         "entity": []
     },
     {
@@ -56,7 +56,7 @@
     },
     {
         "text": "I need an Able2Extract license key",
-        "intent": "Intent.AccessIssues",
+        "intent": "Intent.GRMIssues",
         "entity": []
     },
     {
@@ -401,7 +401,7 @@
     },
     {
         "text": "Audion Control .exe file error message, not a valid user.",
-        "intent": "Intent.GRMIssues",
+        "intent": "Intent.AccessIssues",
         "entity": []
     },
     {
@@ -411,7 +411,7 @@
     },
     {
         "text": "triage - getting error message when trying to send referral assignment to SSP shop",
-        "intent": "Intent.GRMIssues",
+        "intent": "Intent.GRSIssues",
         "entity": []
     },
     {
@@ -421,7 +421,7 @@
     },
     {
         "text": "wont let me add able2extract to \ncart",
-        "intent": "Intent.GRMIssues",
+        "intent": "Intent.None",
         "entity": []
     },
     {
@@ -431,7 +431,7 @@
     },
     {
         "text": "ONEDRIVE - Unable to Download/Unzip Documents",
-        "intent": "Intent.GRMIssues",
+        "intent": "Intent.FrozenLoadingIssue",
         "entity": []
     },
     {
@@ -441,7 +441,7 @@
     },
     {
         "text": "MOBILE error message when setting up my BYOM",
-        "intent": "Intent.GRMIssues",
+        "intent": "Intent.MobileManagement",
         "entity": []
     },
     {
